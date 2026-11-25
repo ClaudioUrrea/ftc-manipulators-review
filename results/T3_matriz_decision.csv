@@ -1,0 +1,9 @@
+code,n,full_actuation,reserve,info_none,info_known,info_obtained,sensing_beyond_q_dq,sensing_extra,sensing_types,top_family,top_family_n,hw_family,hw_family_n,hw_pairs,hw_pairs_no_EAMBIG,hw_rids
+F1,70,59,full actuation kept 59,33,2,35,10,8,link deflection or strain 5; motor current 2; force or cable tension 1; vision or end-effector pose 1,A2,34,A2,12,21,21,R00790;R00500;R00003;R00088;R00935;R00257;R00460;R00045;R00139;R00096;R00218;R00615;R00980;R00550;R00028;R00613;R00213;R00463;R00783;R00446;R00918
+F2,50,48,full actuation kept 48,19,0,31,6,3,link deflection or strain 3,A2,30,A2,6,11,11,R00790;R00500;R00935;R00460;R00139;R00096;R00980;R00550;R00028;R00783;R00918
+F4t,9,1,redundant inputs (modeled) 9,6,1,2,2,2,motor current 2,A1,5,,0,0,0,
+F4q,7,0,kinematic redundancy 7,0,5,2,1,1,vision or end-effector pose 1,A3,7,A3,5,5,5,R00003;R00013;R00161;R00322;R00760
+F5,4,0,kinematic redundancy 2; redundant inputs (modeled) 1; underactuated control 1,1,3,0,0,0,,A3,3,,0,0,0,
+F6,52,44,full actuation kept 44,22,1,29,7,4,link deflection or strain 2; motor current 1; vision or end-effector pose 1,A2,27,A2,7,14,14,R00790;R00500;R00088;R00935;R00460;R00139;R00096;R00980;R00550;R00028;R00613;R00213;R00463;R00375
+F7,5,1,full actuation 1; actuation redundancy 2; kinematic redundancy 2; underactuation 2; task relaxation or safe degradation 3,0,2,3,5,4,force or cable tension 2; joint torque 2; inertial 1,A3,3,A3,1,3,3,R01644;R00141;R00312
+F8,15,13,full actuation kept 13,3,0,12,7,3,joint torque 2; inertial 1; vision or end-effector pose 1,A2,11,A2,1,2,2,R01644;R00375

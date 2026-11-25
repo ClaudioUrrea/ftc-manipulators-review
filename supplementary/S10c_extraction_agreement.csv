@@ -1,0 +1,18 @@
+field,agree,n,raw,kappa
+manipulator class (M),18,20,0.9,0.83
+"fault classes (F, exact set)",12,20,0.6,0.56
+F4 sub-code,19,20,0.95,0.87
+primary accommodation family (A),18,20,0.9,0.84
+evidence level (E0-E4),20,20,1.0,1.0
+hardware validation (E3-E4),20,20,1.0,1.0
+normal-form fit,12,20,0.6,0.25
+R1,18,20,0.9,0.62
+R2,18,20,0.9,0.44
+R3,16,20,0.8,0.6
+R4,19,20,0.95,0.64
+R5,18,20,0.9,0.8
+R6,18,20,0.9,0.79
+R7,20,20,1.0,1.0
+R8,20,20,1.0,1.0
+R9,20,20,1.0,1.0
+R10,20,20,1.0,

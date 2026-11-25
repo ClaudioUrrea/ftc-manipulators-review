@@ -1,0 +1,46 @@
+# CADENAS_DEFINITIVAS_WOS.txt — Paper R1 — RS1, 15-11-2026 (protocolo v1.3; las cadenas no cambian desde v1.0)
+# Web of Science Core Collection > Advanced Search. Pegar cada cadena COMPLETA (vaciar antes el editor con Ctrl+A, Supr).
+# Precedencia WoS: NEAR > SAME > NOT > AND > OR. Sin NOT en la cadena principal.
+# RS2 registra fecha, ediciones de la colección, número de conjunto (#) y conteo en BRECHA_WOS.md (sección "RS2").
+# Cambios frente a E2a (W02): + términos de modelo de falla y de recuperación; + clases de manipulador; + LA=(English).
+
+## Bloques
+# R'  = TS=(manipulator* OR "robot* arm*" OR "robotic arm*" OR "industrial robot*" OR "serial robot*" OR "parallel robot*" OR "redundant robot*" OR "collaborative robot*" OR cobot* OR SCARA OR "delta robot*" OR "space robot*" OR "robot* joint*" OR "dual-arm*" OR "multi-arm*" OR "articulated robot*" OR "continuum robot*" OR "Stewart platform*")
+# FA' = TS=("fault toleran*" OR "fault-toleran*" OR "failure toleran*" OR "failure-toleran*" OR "fault accommodat*" OR "fault compensat*" OR "fault recover*" OR "failure recover*" OR "reconfigurable control*" OR "control reconfigur*" OR "post-fault*" OR "post-failure" OR "graceful degradation" OR "actuator fault*" OR "actuator failure*" OR "loss of effectiveness" OR "stuck actuator*" OR "actuator stuck" OR "lock-in-place" OR "motor fault*" OR "motor failure*" OR "joint failure*" OR "joint fault*" OR "locked joint*" OR "joint locking" OR "joint lock" OR "jammed joint*" OR "joint jam*" OR "free-swinging" OR "free swinging" OR "intermittent fault*" OR "sensor fault*" OR "sensor failure*" OR "encoder fault*" OR "encoder failure*")
+# DX  = TS=("fault detect*" OR "fault diagnos*" OR "fault isolat*" OR "fault estimat*" OR "fault identif*")
+
+F01 corpus principal (todos los años; exportar completo):
+(TS=("fault toleran*" OR "fault-toleran*" OR "failure toleran*" OR "failure-toleran*" OR "fault accommodat*" OR "fault compensat*" OR "fault recover*" OR "failure recover*" OR "reconfigurable control*" OR "control reconfigur*" OR "post-fault*" OR "post-failure" OR "graceful degradation" OR "actuator fault*" OR "actuator failure*" OR "loss of effectiveness" OR "stuck actuator*" OR "actuator stuck" OR "lock-in-place" OR "motor fault*" OR "motor failure*" OR "joint failure*" OR "joint fault*" OR "locked joint*" OR "joint locking" OR "joint lock" OR "jammed joint*" OR "joint jam*" OR "free-swinging" OR "free swinging" OR "intermittent fault*" OR "sensor fault*" OR "sensor failure*" OR "encoder fault*" OR "encoder failure*")) AND (TS=(manipulator* OR "robot* arm*" OR "robotic arm*" OR "industrial robot*" OR "serial robot*" OR "parallel robot*" OR "redundant robot*" OR "collaborative robot*" OR cobot* OR SCARA OR "delta robot*" OR "space robot*" OR "robot* joint*" OR "dual-arm*" OR "multi-arm*" OR "articulated robot*" OR "continuum robot*" OR "Stewart platform*")) AND DT=(Article OR Review OR Proceedings Paper) AND LA=(English)
+
+F01e efecto del filtro de idioma (solo conteo): F01 sin "AND LA=(English)".
+
+F02 complemento diagnóstico + acomodación (solo conteo y muestra; NO se exporta completo):
+(TS=("fault detect*" OR "fault diagnos*" OR "fault isolat*" OR "fault estimat*" OR "fault identif*")) AND (TS=(manipulator* OR "robot* arm*" OR "robotic arm*" OR "industrial robot*" OR "serial robot*" OR "parallel robot*" OR "redundant robot*" OR "collaborative robot*" OR cobot* OR SCARA OR "delta robot*" OR "space robot*" OR "robot* joint*" OR "dual-arm*" OR "multi-arm*" OR "articulated robot*" OR "continuum robot*" OR "Stewart platform*")) AND (TS=(reconfigur* OR accommodat* OR compensat* OR redundan* OR recover*)) AND DT=(Article OR Review OR Proceedings Paper) AND LA=(English)
+F02c = combinar en el historial: #F02 NOT #F01  -> conteo. Exportar solo una muestra aleatoria de 100 (semilla 20261116) para estimar la fracción elegible perdida.
+
+F03 conocidos (trabajo propio; etiqueta OWN): AI=(KWU-1600-2024) AND #F01  -> conteo y lista.
+
+F06 revisiones semilla (prueba previa a exportar): #F01 AND (DT=(Review) OR TI=(review OR survey OR overview)) -> deben aparecer las de KNOWN_ITEMS_SEEDS.csv marcadas "yes"; comprobar primero Khan, Nasir y Mekid 2025.
+
+F07 tamaño de EX-SCOPE (solo conteo): #F01 AND TS=("multi-robot*" OR "multi-agent*" OR "multiple robots" OR swarm* OR "formation control" OR consensus)
+
+F04 revista objetivo dentro del corpus: IS=(2076-0825) AND #F01
+
+F05 revisiones dentro del corpus (capa R): #F01 AND DT=(Review)
+
+## Conteos de control (antes de exportar)
+- F01 entre 1350 y 3500 (W02 = 1408; F01 es superconjunto salvo idioma). Fuera de rango: revisar bloque pegado y ediciones.
+- F01e - F01 > 5 % de F01e: anotar el efecto del idioma.
+- F02c / F01 > 0,30: el complemento es grande; revisar la muestra antes de seguir.
+- F03: el piloto dio 11 de 20 (W09a); los 9 ausentes son ajenos al tema, sin término de manipulador o no están en inglés. Control: F03 >= 11 y deben estar los propios en alcance (Technologies 2025 SCARA, Complex Intell. Syst. 2022, Sensors 2025 Delta, Comput. Electr. Eng. 2021, Mathematics 2026).
+- F04 debe contener los 4 INCLUDE de KNOWN_ITEMS_ACTUATORS.csv (de los 17 de W04, solo 4 son estudios FTC en manipuladores). Si falta alguno: enmienda de cadena antes de exportar (protocolo v1.3; las cadenas no cambian desde v1.0).
+
+## Exportación (RS2; autorización única del autor)
+Ordenar por fecha de publicación. Export > BibTeX > Full Record (incluye referencias citadas) > lotes de 500.
+Nombre: X01_F01_WoS_0001-0500_<AAAA-MM-DD>.bib, X01_F01_WoS_0501-1000_..., X05_F05 y X02c_muestra100.
+Destino: 00 · DATOS (no se editan).
+
+## Piloto declarado (15-11-2026, WoS, sin exportar; la búsqueda informada es la de RS2)
+F01 = 1509; F01 AND PY=(2016-2026) = 1071; F04 conocidos = 4 de 4; F03 = 11; F07 = 120; F06 = 26.
+F04s revista objetivo (Sensors) dentro del corpus: IS=(1424-8220) AND #F01  -> exportar como X04s. Piloto 2021-2026: 12.
+Piloto adicional (15-11): Khan, Nasir y Mekid 2025 recuperado por F01; F01 AND PY=(2021-2026) = 765 (Actuators 12, Sensors 12, Machines 11, Mathematics 11).

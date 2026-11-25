@@ -1,0 +1,273 @@
+{
+  "struct_uncoded": [],
+  "sens_uncoded": [],
+  "info_unclear": [],
+  "fit_studies": {
+    "full": 84,
+    "partial": 15,
+    "none": 4,
+    "not applicable": 1,
+    "sensor-side form (F8)": 1
+  },
+  "fit_full_share": 0.8,
+  "fit_none_rids": [
+    "R01831",
+    "R01644",
+    "R00866",
+    "R00231"
+  ],
+  "fit_partial_rids": [
+    "R00021",
+    "R00552",
+    "R00518",
+    "R00863",
+    "R00982",
+    "R01741",
+    "R00458",
+    "R00312",
+    "R00480",
+    "R00981",
+    "R00384",
+    "R00227",
+    "R00305",
+    "R00824",
+    "R00578"
+  ],
+  "R1_equation_share": 0.952,
+  "F4_sub": {
+    "F4t": 9,
+    "F4q": 7
+  },
+  "n_simultaneous_gt1": 66,
+  "sens_only_qqd_share": 0.8,
+  "sens_beyond_n": 21,
+  "sens_torque_n": 3,
+  "sens_current_n": 2,
+  "sens_vision_n": 3,
+  "info": {
+    "estimation": 45,
+    "none": 39,
+    "known (assumed)": 10,
+    "isolation": 6,
+    "detection and estimation": 4,
+    "detection": 1
+  },
+  "info_by_A": {
+    "A1": {
+      "none": 36,
+      "known (assumed)": 2
+    },
+    "A2": {
+      "estimation": 44,
+      "detection and estimation": 3,
+      "isolation": 3
+    },
+    "A3": {
+      "known (assumed)": 7,
+      "isolation": 3,
+      "none": 1,
+      "detection": 1
+    },
+    "A4": {
+      "none": 2,
+      "known (assumed)": 1,
+      "detection and estimation": 1,
+      "estimation": 1
+    }
+  },
+  "delay": {
+    "not applicable": 76,
+    "not reported": 24,
+    "quantified": 5
+  },
+  "needs_info_n": 66,
+  "needs_info_delay_quantified": 5,
+  "struct": {
+    "full actuation retained": 79,
+    "actuation redundancy": 14,
+    "kinematic redundancy": 11,
+    "underactuation exploited or reached": 3,
+    "task relaxation or safe degradation": 6,
+    "sensor redundancy or correction": 3
+  },
+  "F4q_n": 7,
+  "F4q_A": {
+    "A3": 7
+  },
+  "F4q_kinematic_or_task": 7,
+  "F45_n": 18,
+  "F45_A": {
+    "A3": 9,
+    "A1": 6,
+    "A2": 2,
+    "A4": 1
+  },
+  "F45_structural_reserve": 18,
+  "F1_full_actuation_share": 0.843,
+  "F5_rids": [
+    "R00139",
+    "R01043",
+    "R00682",
+    "R00909"
+  ],
+  "sens_by_group_n": {
+    "hardware": 30,
+    "simulation": 75
+  },
+  "sens_hw_beyond_n": 6,
+  "sens_extra_n": 15,
+  "sens_extra_hw_n": 6,
+  "sens_extra_sim_n": 9,
+  "sens_only_qqd_n": 84,
+  "sens_output_or_unspecified_n": 6,
+  "sens_sim_beyond_n": 15,
+  "sens_counts": {
+    "joint position": 97,
+    "joint velocity": 71,
+    "joint torque": 3,
+    "motor current": 2,
+    "vision or end-effector pose": 3,
+    "force or cable tension": 3,
+    "link deflection or strain": 5,
+    "inertial": 1,
+    "output only": 5,
+    "other (not specified)": 1
+  },
+  "sens_counts_hw": {
+    "joint position": 30,
+    "joint velocity": 14,
+    "joint torque": 2,
+    "motor current": 0,
+    "vision or end-effector pose": 1,
+    "force or cable tension": 1,
+    "link deflection or strain": 2,
+    "inertial": 1,
+    "output only": 0,
+    "other (not specified)": 0
+  },
+  "sens_beyond_A1": [
+    2,
+    38
+  ],
+  "sens_beyond_A2": [
+    13,
+    50
+  ],
+  "sens_beyond_A3": [
+    4,
+    12
+  ],
+  "sens_beyond_A4": [
+    2,
+    5
+  ],
+  "delay_quantified_rids": [
+    "R00954",
+    "R01644",
+    "R00312",
+    "R00231",
+    "R00396"
+  ],
+  "delay_values": {
+    "R00954": [
+      0.1,
+      5.1,
+      0.15,
+      5.2
+    ],
+    "R01644": [
+      50.0,
+      95.0
+    ],
+    "R00312": [
+      30.0,
+      80.0,
+      200.0,
+      190.0,
+      4.0
+    ],
+    "R00231": [
+      68.0,
+      93.0,
+      0.52,
+      15.0
+    ],
+    "R00396": [
+      2.68,
+      17.68
+    ]
+  },
+  "delay_hw_n": 2,
+  "joint_reserve_type": {
+    "modeled redundant inputs": 9,
+    "kinematic redundancy of the arm": 8,
+    "underactuation of the arm": 1
+  },
+  "F4t_reserve_type": {
+    "modeled redundant inputs": 9
+  },
+  "F4t_GEN_n": 5,
+  "F4t_physical_reserve_n": 0,
+  "joint_GEN_n": 5,
+  "A4_GEN_n": 3,
+  "GEN_n": 26,
+  "NET_n": 3,
+  "F7_sub": {
+    "": 100,
+    "F7c": 4,
+    "F7r": 1
+  },
+  "info_known_F4q": [
+    5,
+    7
+  ],
+  "info_known_F5": [
+    3,
+    4
+  ],
+  "info_known_F4t": [
+    1,
+    9
+  ],
+  "F4t_passive_n": 5,
+  "A1_info": {
+    "none": 36,
+    "known (assumed)": 2
+  },
+  "A1_known_rids": [
+    "R00135",
+    "R00682"
+  ],
+  "F1_A1_n": 32,
+  "F1_A1_noinfo_n": 31,
+  "F1_A1_known_n": 1,
+  "F4t_passive_noinfo_n": 4,
+  "F4t_passive_known_n": 1,
+  "F4t_passive_earlier_n": 7,
+  "F4t_passive_earlier_noinfo_n": 7,
+  "F1_A1_earlier_n": 55,
+  "needs_info_earlier_n": 43,
+  "needs_info_earlier_delay_quantified": 5,
+  "info_earlier_unclear": [],
+  "hw_reserve": {
+    "full actuation": 21,
+    "kinematic redundancy of the physical arm": 6,
+    "virtual channels": 1,
+    "none or not stated": 1,
+    "physical actuation redundancy": 1
+  },
+  "hw_result": {
+    "quantitative": 18,
+    "qualitative": 12
+  },
+  "hw_reserve_A3": {
+    "kinematic redundancy of the physical arm": 5,
+    "virtual channels": 1,
+    "physical actuation redundancy": 1
+  },
+  "hw_virtual_rids": [
+    "R00139"
+  ],
+  "hw_quantitative_n": 18,
+  "hw_uncoded": []
+}

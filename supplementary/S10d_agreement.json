@@ -1,0 +1,91 @@
+{
+  "n": 20,
+  "coded_sheet_sha256": "c881c5fb9cd815290e3ffba11bc2b67d453900d305b98a6c9238aed60315c594",
+  "key_sha256": "261082b522eff386d50d9ca523ecf81cdfe1047acb69056c173f1f4e99e7b95d",
+  "fields": {
+    "E_level": {
+      "agree": 17,
+      "n": 20,
+      "prop": 0.85,
+      "wilson95": [
+        0.64,
+        0.948
+      ],
+      "kappa": 0.725
+    },
+    "hardware_validated": {
+      "agree": 18,
+      "n": 20,
+      "prop": 0.9,
+      "wilson95": [
+        0.699,
+        0.972
+      ],
+      "kappa": 0.794
+    },
+    "A_primary": {
+      "agree": 19,
+      "n": 20,
+      "prop": 0.95,
+      "wilson95": [
+        0.764,
+        0.991
+      ],
+      "kappa": 0.913
+    },
+    "F4_sub": {
+      "agree": 19,
+      "n": 20,
+      "prop": 0.95,
+      "wilson95": [
+        0.764,
+        0.991
+      ],
+      "kappa": 0.905
+    },
+    "fault_information": {
+      "agree": 18,
+      "n": 20,
+      "prop": 0.9,
+      "wilson95": [
+        0.699,
+        0.972
+      ],
+      "kappa": 0.843
+    },
+    "F_codes": {
+      "exact_agree": 19,
+      "n": 20,
+      "prop": 0.95,
+      "wilson95": [
+        0.764,
+        0.991
+      ],
+      "mean_jaccard": 0.975
+    },
+    "hardware_fault_classes": {
+      "exact_agree": 17,
+      "n": 20,
+      "prop": 0.85,
+      "wilson95": [
+        0.64,
+        0.948
+      ],
+      "mean_jaccard": 0.883
+    },
+    "structural_reserve": {
+      "agree": 17,
+      "n": 20,
+      "prop": 0.85,
+      "wilson95": [
+        0.64,
+        0.948
+      ]
+    }
+  },
+  "overall_fields_agree": {
+    "agree": 126,
+    "n": 140,
+    "prop": 0.9
+  }
+}

@@ -1,0 +1,106 @@
+rid,metric,m_nominal,m_fault_noFTC,m_fault_FTC,nominal,fault_noFTC,fault_FTC,RF_computable,D1_computable
+R00469,MSE and other indices of e_1 over 0-20 s (Table 3; values not captured),NR,"NR (BNNAC without FTP, Table 3)",NR (Table 3 not captured),False,False,False,False,False
+R00475,manipulator: joint-angle plots only (no number). Academic system: PI = sum of squared output error after the fault,NR,NR (plot only),"NR (plot only); academic system PI: nearly optimal 156.90, RL-FTC 7.13, proposed 4.93",False,False,False,False,False
+R00880,IAE (Tables 3 and 4),NR,"PID IAE x1e-3: position 386.8 / 153.3 / 441.7, tracking 198.6 / 158.3 / 529.7 (Types A/B/C)","APID IAE x1e-3: position 19.04 / 14.45 / 74.67, tracking 20.69 / 21.2 / 39.99",False,True,True,False,False
+R00748,"position and velocity tracking, figures only",NR,NR,NR,False,False,False,False,False
+R00036,tracking error and torque (figures only),NR,NR,NR,False,False,False,False,False
+R00409,"tracking error vs accuracy epsilon = 0.05, figures only",NR,NR,NR,False,False,False,False,False
+R00021,success rate over 1000 runs; computation time per control step,not applicable,NR,success rates in a figure; PFM 99.99th-percentile computation time 0.077 ms (ECF) and 0.5036 ms (NCM),False,False,True,False,False
+R01602,RMSE of joint position over the whole 30 s run (unit not stated),NR,NR,"SMC-RBFNN: j1 2.2537, j2 1.9933, j3 2.8485, j4 1.7519 (SMC: 5.1409, 5.2411, 5.5501, 3.4810)",False,False,True,False,False
+R00801,"state trajectories, figures only",NR,NR,NR,False,False,False,False,False
+R00552,RMS joint tracking error (rad),NR,NR,"e1 = 0.0294, e2 = 0.0208 (baseline AFONTSM: 0.0320, 0.0237)",False,False,True,False,False
+R01835,"tracking, figures only",NR,NR (unstable),NR,False,False,False,False,False
+R00954,IAE of Cartesian tracking (Table 2),NR,"IAE joint 1 fault: X 0.1710, Y 0.2108; joints 1/2: X 0.1340, Y 0.1516; time-varying fault (Table 3), joint 1: X 0.1036, Y 0.1324","IAE joint 1 fault: X 0.0963, Y 0.1198; joints 1/2: X 0.0799, Y 0.0955; time-varying fault (Table 3), joint 1: X 0.0628, Y 0.0788",False,True,True,False,False
+R01831,"tracking errors, figures only",NR,NR,NR,False,False,False,False,False
+R00790,"joint tracking error (rad), read from plots except one value stated in text",NR,NR,"joint 2 error about 0.005 rad after the fault (experiment, stated in text)",False,False,True,False,False
+R01817,"joint tracking error, ranges read from figures (e.g. within +-0.005 rad for ASMC in case 2)",NR,NR,NR,False,False,False,False,False
+R00586,"set-point tracking and triggering counts, figures only",NR,NR,NR,False,False,False,False,False
+R00500,"joint tracking errors, figures only",NR,NR,NR,False,False,False,False,False
+R00878,tracking error and sliding surfaces (figures only),NR,NR,NR,False,False,False,False,False
+R00998,"outputs and fault reconstruction, figures only",NR,NR,NR,False,False,False,False,False
+R00272,"tracking error, figures",NR,NR,NR,False,False,False,False,False
+R00003,"RMSE of the traced path vs the 0.45 m square (mm), mean over 5 runs",all rollers on: CL 39.3 (OL 56.7),"OL-U: broken 1 67.6, broken 1 and 4 80.4, roller 6 at 66 % 86.7","CL: broken 1 44.1, broken 1 and 4 43.1, roller 6 at 66 % 52.7 (OL-A: 63.4, 59.7)",True,True,True,True,True
+R00088,peak tracking errors read from plots (|z1| about 0.03 vs 0.1 for the baseline),NR,NR,NR (approximate values read from plots),False,False,False,False,False
+R00005,safety violation rate and minimum safety margin,NR,39/40 violations,"0/40 violations, mean h_min = 0.301 (passive 0.735)",False,True,True,False,False
+R00013,"path-tracking error (Table IV), feasibility, execution rate v, runtime (Table VI)",NR,T-FTF becomes infeasible and stops at tau about 3.35,"R-FTF completes the path (tau = 5 at about 5.07 s, minimum v about 0.668)",False,True,True,False,False
+R01920,none printed (figures),NR,NR,NR,False,False,False,False,False
+R00300,"IAE, ISE, IATE of joint tracking error and ISV of control input over the whole run (units not stated, figures in deg)",NR,NR,"proposed: IAE 0.5323, 0.2155, 1.016; ISE 0.9763, 0.1484, 3.233; IATE 0.122, 0.08, 0.26 (ref. 38: IAE 8.16, 2.45, 8.15; ISE 23.14, 2.27, 30.95)",False,False,True,False,False
+R00689,"maximum position error E_q and RMSE_q (Table IV, simulation; values not captured)",NR,NR,NR (Table IV not captured),False,False,False,False,False
+R00935,"synchronization errors and torques, figures only",NR,NR,NR,False,False,False,False,False
+R00257,"RMS and maximum joint position tracking error (Table III, experiment)",NR,NR,Table III values not extracted (table not in the HTML text),False,False,False,False,False
+R00161,EEF tracking RMSE (mm),"NR (fault-free RMSE in figure 1a, value not captured)",NR,"experiment: 0.3927 mm (one joint), 0.3954 mm (two joints)",False,False,True,False,False
+R00322,"end-effector tracking error, figures",NR,NR,NR,False,False,False,False,False
+R01644,circular tracking error (mm),NR,joint wear: about 7.3 mm average (derived: 2.3 mm is 68.3 % lower),joint wear 2.3 mm average (PID about 4.0 mm); encoder drift max 4.1 mm; combined faults below 3.7 mm,False,True,True,False,False
+R00141,"mean joint-4 tension and cable-11 tension (figures; values not captured); tension-prediction RMSE, MAE, R2",NR,NR,NR,False,False,False,False,False
+R00131,"tracking error norm, figures only; residual set epsilon_1 = 1e-4",NR,NR,NR,False,False,False,False,False
+R00460,"position tracking RMSE (Table II simulation, Table V experiment; values not captured)",NR,NR,NR (tables not captured),False,False,False,False,False
+R00045,IAE per joint over time windows,NR,"FC joint 1 IAE (45-60 s, case 1): 0.868 rad s","AFTFTC joint 1 IAE (45-60 s, case 1): 0.468 rad s (AFTC 0.504)",False,True,True,False,False
+R00139,tracking error (figures); number of triggered events (Table III),NR,NR,NR,False,False,False,False,False
+R00301,"RMSE of position and orientation, MSD, response time (Table 8, ablation over all scenarios); settling-time improvement of 2 s under faults",NR,NR,"full model RMSE 0.012 (position), 0.009 (orientation), aggregated over scenarios",False,False,True,False,False
+R00866,average end-effector position error (mm),NR,35 mm,2.45 mm,False,True,True,False,False
+R00518,mean squared contour error (m),NR,NR (PID 0.0076 m),"0.0029 m (NTSMC 0.0051, ANTSMC 0.0044)",False,False,True,False,False
+R00299,energy consumption per task,reported per scenario (figure/table),not applicable,in seven situations the locked-axis solution used about 12 % less energy than the healthy robot,False,False,True,False,False
+R00730,MSE between belief and true joint position (state estimation),NR,"faulty joint 0.0036, healthy joints 0.0020",precision learning 5.422e-5 / 4.527e-5 (with detection 6.097e-5 / 4.134e-5; deterministic recovery 0.5946e-5 / 0.3579e-5),False,True,True,False,False
+R00096,"maximum tracking error, steady-state error, oscillation time per fault",NR,"PD (experiment, joint 1, efficiency loss): max error 0.0792 rad, steady-state 0.0092 rad","APE: max error 0.0581 rad (experiment); 0.0454 rad and steady-state 0.0037 rad (simulation, joint 1)",False,True,True,False,False
+R00135,"tracking, figures",NR,NR,NR,False,False,False,False,False
+R00785,"joint tracking error (rad), figures only; text states accuracy within 1e-3 rad for all controllers (simulation)",NR,NR,NR,False,False,False,False,False
+R00495,"step-response settling time (experiment: CCS about 2 s, ECS about 0.8 s, CSM about 0.6 s); errors in figures",NR,NR,"settling time about 0.6 s (CCS 2 s, ECS 0.8 s), experiment under actuator fault",False,False,True,False,False
+R00863,"averaged tracking error E_j = sqrt(sum e_j^2 / N) per joint (rad) under faults, plus elapsed time",NR,NR,"ABNFTSMC E1 0.0248, E2 0.0219, E3 0.0118 (CTC 0.4580, 0.5938, 0.2696; PID 0.2417, 0.3698, 0.1768; PID-SMC 0.0593, 0.0478, 0.0472; NFTSMC 0.1119, 0.2453, 0.0768)",False,False,True,False,False
+R00982,RMSE of joint tracking errors (Tables I and II),NR,NR,Tables I-II values not captured,False,False,False,False,False
+R00760,"path tracking error, figures",NR,NR,NR,False,False,False,False,False
+R00218,"performance indices PI1, PI2 (Table III, simulation) and Table V (experiment), values not captured",NR,NR,NR (tables not captured),False,False,False,False,False
+R00705,"state convergence, figures only",NR,NR,NR,False,False,False,False,False
+R00615,"tracking error vs prescribed bounds, figures only",NR,NR,NR,False,False,False,False,False
+R00980,"tracking trajectories and control inputs, figures only",NR,NR,NR,False,False,False,False,False
+R01741,"tracking errors and torques, figures only",NR,NR,NR,False,False,False,False,False
+R00458,"tracking error, recovery within 1.5 s after the fault (figures)",NR,NR,NR,False,False,False,False,False
+R00843,"state trajectories, figures only",NR,NR,NR,False,False,False,False,False
+R01043,"end-effector circle tracking, figures only",NR,NR,NR,False,False,False,False,False
+R00158,convergence (settling) time and cost functions; Table II convergence time and control input (values not captured); about 25-30 % lower cost (approximate remark),NR,NR,NR,False,False,False,False,False
+R00682,"passive joint angles and sliding variables, figures only",NR,NR,NR,False,False,False,False,False
+R00909,"degraded workspace and path, figures only",NR,NR,NR,False,False,False,False,False
+R00550,"angular tracking error, overshoot, accommodation time, max and peak-to-peak vibration (Table III, experiment)",NR (relative values only),tracking error +911 % (case 1) and +1265 % (case 2) relative to fault-free BC,overshoot 9.46 % and 26.45 % of fault-free BC; accommodation time -20.33 %; settles within 0.48 s,False,True,True,False,False
+R01959,none printed (figures),NR,NR,NR,False,False,False,False,False
+R00028,"RMS tracking error and RMS variation before/after fault, internal forces",NR,NR,simulation: RMS error reduced by 77.8 % and 79.7 % (case I) and 77.0 % and 66.7 % (case II) vs TDE-AFTC and FTTSMC,False,False,True,False,False
+R00312,detection time (ms); end-effector trajectories in figures,NR,NR,NR,False,False,False,False,False
+R00480,"end-effector trajectory (cross-track) error, figures only",NR,NR,NR,False,False,False,False,False
+R00981,"state and fault estimation, figures only",NR,NR,NR,False,False,False,False,False
+R00384,"state and fault-estimate trajectories, figures only",NR,NR,NR,False,False,False,False,False
+R00655,"RMSE of end-effector position (m), 2-40 s",Table 4 (no fault),not applicable,Table 5 (values not captured as text),True,False,True,False,True
+R00180,"maximum position error and peak torque, relative",NR,NR,maximum position error up to 25 % lower and peak torque up to 16.5 % lower than the compared SMC,False,False,True,False,False
+R00316,"MSE of joint tracking error (rad^2), whole run",NR,NR,"PFTC NN-S-TSMC: j1 8.4292e-10, j2 2.2357e-9, j3 3.4783e-9 (TSMC: 1.7027e-8, 1.5918e-6, 2.1176e-6; AFTC S-TSMC: 6.0705e-11, 3.9397e-9, 5.9448e-9; PFTC S-TSMC: 8.4325e-9, 1.7215e-8, 1.0103e-8)",False,False,True,False,False
+R00227,"none printed (output, states and inputs in figures only)",NR,NR,NR,False,False,False,False,False
+R00231,"ISE and ITAE of the end-effector Cartesian residual between the fault-free and the faulty trajectory (per axis, average, normalized)",0 by construction (residual to the fault-free run),"ISE average: actuator 0.49, sensor 3.14, multiple 7.25 (ITAE 12.57, 34.96, 68.55)","ISE average: actuator 0.44, sensor 2.70, multiple 3.50 (ITAE 8.94, 32.57, 37.11); fault-tolerant SMC ISE average 1.47, 4.04, 9.93",False,True,True,False,False
+R00305,"state, cost-function weights and identification error, figures only",NR,NR,NR,False,False,False,False,False
+R00856,"tracking convergence, figures only",NR,NR,NR,False,False,False,False,False
+R00700,"RMSE of joint tracking error (rad), whole run","AFISMC-DO normal operation: 0.0023, 0.0019, 0.0019",NR,"AFISMC-DO with faults: 0.0024, 0.0020, 0.0020 (CTC 0.3088, 0.2003, 0.1944; PID 0.0297, 0.0560, 0.0139; NFTSMC 0.0053, 0.0086, 0.0055)",True,False,True,False,True
+R00827,"constraint satisfaction and tracking accuracy, figures only",NR,NR,NR,False,False,False,False,False
+R00613,position tracking error; experiment: errors within +/-0.01 rad after fixed time 3.15 s with or without faults,NR,NR,|e| <= 0.01 rad after 3.15 s (experiment),False,False,True,False,False
+R00213,convergence (fault recovery) time per joint,NR,NR,"convergence time [4.95, 3.56, 5.95, 5.58] s (Tc bound 6 s); [5.04, 2.38, 6.18, 6.57] s (bound 8 s)",False,False,True,False,False
+R00463,"steady-state error e_s, settling time t_s and prescribed-performance guarantee (Table 2, experiment)",NR,NR,"FTPPC joint 1: e_s = 6.83e-3 rad, t_s = 0.602 s (experiment)",False,False,True,False,False
+R01707,"tracking error and triggering intervals, figures only",NR,NR,NR,False,False,False,False,False
+R00461,"joint tracking errors; comparison in figures (3D bar chart), no printed values",NR,NR,NR,False,False,False,False,False
+R00394,"IAE, ITAE and ISV (Table 2; values not captured)",NR,NR,NR (Table 2 not captured),False,False,False,False,False
+R00568,"output tracking, figures only",NR,NR,NR,False,False,False,False,False
+R01770,"tracking errors and fault estimates, figures only",NR,NR,NR,False,False,False,False,False
+R00824,RMSE of joint tracking error (rad) and convergence time under faults,NR,NR,"STF-PID-NFTSMC: E1 0.087 (as printed), E2 0.0075, E3 0.0067 (PID-NFTSMC 0.0195, 0.0164, 0.0152; NFTSMC 0.3539, 0.1395, 0.0116; CTC 0.2363, 0.3875, 0.0424)",False,False,True,False,False
+R01046,constraint satisfaction and tracking (figures only),NR,NR,NR,False,False,False,False,False
+R00783,"steady-state tracking accuracy |z_1| (rad) and settling time (Tables I-II, averages of 2000 tests)",NR (Table I values not captured),baselines fail the task in case 2 (marked x),"|z_11|, |z_12| <= 6.0e-4 rad, trajectory followed after 11 s",False,True,True,False,False
+R00446,"ISE, ITSE, ITAE (Tables II simulation and III experiment; values not captured)",NR,NR,NR (tables not captured),False,False,False,False,False
+R00667,state responses over 100 realizations; minimal admissible effectiveness h_11^- versus rho (Table III),NR,NR,NR,False,False,False,False,False
+R00918,steady-state tracking accuracy; convergence time,NR,"NR (PD tracking degraded, figures)","simulation 1.2e-6 rad steady-state accuracy (converged in 8 s); experiment error bound 7.0e-4 and 1.0e-3 (units printed as N m), task achieved after 30 s",False,False,True,False,False
+R00698,"state convergence and triggering count, figures only",NR,NR,NR,False,False,False,False,False
+R00699,"state convergence, figures only",NR,NR,NR,False,False,False,False,False
+R00375,"tracking errors versus funnel bounds, figures only (AFFTC stops at t = 32 s)",NR,NR,NR,False,False,False,False,False
+R00388,IAE and ITAE of the angular tracking error (Table II; values not captured),NR,NR,NR (Table II not captured),False,False,False,False,False
+R00763,"state responses over 100 realizations, figures only",NR,NR,NR,False,False,False,False,False
+R00386,"containment errors, figures only",NR,NR,NR,False,False,False,False,False
+R00578,"state and fault estimates, figures only",NR,NR,NR,False,False,False,False,False
+R00383,tracking error (figures only),NR,NR,NR,False,False,False,False,False
+R00541,"state trajectories, figures only; admissible sampling bound",NR,NR,NR,False,False,False,False,False
+R00681,maximum elastic deflection and settling time,NR,"PD: maximum vibration 0.22 m, settles after about 5 s","maximum vibration 0.07 m and 0.03 m (manipulators 1 and 2), tip vibration settles within 3 s (PD 4 s)",False,True,True,False,False
+R00396,"tracking error and fault estimate, figures only; detection delay",NR,NR,NR,False,False,False,False,False
+R00588,"mean over iterations of the maximum position and speed tracking errors E1, E2 (Tables I-IV); figures per iteration",NR,NR,NR,False,False,False,False,False
+R00990,tracking error norm and constraint kb = 0.9 (figures only),NR,NR,NR,False,False,False,False,False
+R00877,"state and fault estimates, figures only",NR,NR,NR,False,False,False,False,False
+R00074,"ME, RMSE, ISE, IAE, ITAE, ITSE of tracking (Table 3, Case 2 with faults and white noise); ME and RMSE of fault estimation (Table 4)",NR,NR,NR,False,False,False,False,False

@@ -1,0 +1,9 @@
+{
+  "n_studies_sample": 20,
+  "discrepancies": 16,
+  "studies_with_discrepancy": 10,
+  "extraction_error": 0,
+  "verification_error": 3,
+  "ambiguous_extraction_kept": 13,
+  "studies_extraction_corrected": 0
+}

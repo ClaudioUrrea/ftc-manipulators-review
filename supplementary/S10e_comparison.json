@@ -1,0 +1,190 @@
+{
+  "base": {
+    "sheet": "VERIFICACION_HUMANA_20_CODIFICADA.csv",
+    "sha256": "ff3367eca84f11fd662461e4428c214cacf12f5570212bffab8b839907340138",
+    "n": 20,
+    "fields": {
+      "E_level": {
+        "agree": 2,
+        "n": 20,
+        "prop": 0.1,
+        "wilson95": [
+          0.028,
+          0.301
+        ],
+        "kappa_descriptive": -0.017
+      },
+      "hardware_validated": {
+        "agree": 7,
+        "n": 20,
+        "prop": 0.35,
+        "wilson95": [
+          0.181,
+          0.567
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "injection_on_hardware": {
+        "agree": 7,
+        "n": 20,
+        "prop": 0.35,
+        "wilson95": [
+          0.181,
+          0.567
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "A_primary": {
+        "agree": 5,
+        "n": 20,
+        "prop": 0.25,
+        "wilson95": [
+          0.112,
+          0.469
+        ],
+        "kappa_descriptive": -0.087
+      },
+      "F4_sub": {
+        "agree": 19,
+        "n": 20,
+        "prop": 0.95,
+        "wilson95": [
+          0.764,
+          0.991
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "fault_information": {
+        "agree": 5,
+        "n": 20,
+        "prop": 0.25,
+        "wilson95": [
+          0.112,
+          0.469
+        ],
+        "kappa_descriptive": 0.016
+      },
+      "F_codes": {
+        "exact_agree": 3,
+        "n": 20,
+        "prop": 0.15,
+        "wilson95": [
+          0.052,
+          0.36
+        ]
+      },
+      "hw_fault_classes": {
+        "exact_agree": 5,
+        "n": 20,
+        "prop": 0.25,
+        "wilson95": [
+          0.112,
+          0.469
+        ]
+      },
+      "structural_reserve": {
+        "agree": 20,
+        "n": 20,
+        "prop": 1.0,
+        "wilson95": [
+          0.839,
+          1.0
+        ]
+      }
+    }
+  },
+  "v2": {
+    "sheet": "VERIFICACION_HUMANA_20_CODIFICADA_v2.csv",
+    "sha256": "825565c6174e0fac9f4389530155780da7c69e2f4f4a57b6b4c6f9e1a367d729",
+    "n": 20,
+    "fields": {
+      "E_level": {
+        "agree": 2,
+        "n": 20,
+        "prop": 0.1,
+        "wilson95": [
+          0.028,
+          0.301
+        ],
+        "kappa_descriptive": -0.017
+      },
+      "hardware_validated": {
+        "agree": 7,
+        "n": 20,
+        "prop": 0.35,
+        "wilson95": [
+          0.181,
+          0.567
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "injection_on_hardware": {
+        "agree": 7,
+        "n": 20,
+        "prop": 0.35,
+        "wilson95": [
+          0.181,
+          0.567
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "A_primary": {
+        "agree": 5,
+        "n": 20,
+        "prop": 0.25,
+        "wilson95": [
+          0.112,
+          0.469
+        ],
+        "kappa_descriptive": -0.027
+      },
+      "F4_sub": {
+        "agree": 19,
+        "n": 20,
+        "prop": 0.95,
+        "wilson95": [
+          0.764,
+          0.991
+        ],
+        "kappa_descriptive": 0.0
+      },
+      "fault_information": {
+        "agree": 7,
+        "n": 20,
+        "prop": 0.35,
+        "wilson95": [
+          0.181,
+          0.567
+        ],
+        "kappa_descriptive": 0.088
+      },
+      "F_codes": {
+        "exact_agree": 3,
+        "n": 20,
+        "prop": 0.15,
+        "wilson95": [
+          0.052,
+          0.36
+        ]
+      },
+      "hw_fault_classes": {
+        "exact_agree": 5,
+        "n": 20,
+        "prop": 0.25,
+        "wilson95": [
+          0.112,
+          0.469
+        ]
+      },
+      "structural_reserve": {
+        "agree": 20,
+        "n": 20,
+        "prop": 1.0,
+        "wilson95": [
+          0.839,
+          1.0
+        ]
+      }
+    }
+  }
+}

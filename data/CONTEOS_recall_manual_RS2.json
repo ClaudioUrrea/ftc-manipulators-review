@@ -1,0 +1,62 @@
+{
+ "todos_anos": {
+  "recall_reglas": [
+   75,
+   94,
+   0.798,
+   0.706,
+   0.867
+  ],
+  "perdidas_revisadas": 19,
+  "perdidas_en_alcance": 10,
+  "por_causa": {
+   "cobertura": 5,
+   "retraso de indexacion": 3,
+   "cadena": 2
+  },
+  "recall_juicio_manual": [
+   75,
+   85,
+   0.882,
+   0.797,
+   0.935
+  ],
+  "recall_solo_cadena": [
+   75,
+   77,
+   0.974,
+   0.91,
+   0.993
+  ]
+ },
+ "2016_2026": {
+  "recall_reglas": [
+   57,
+   68,
+   0.838,
+   0.733,
+   0.907
+  ],
+  "perdidas_revisadas": 11,
+  "perdidas_en_alcance": 6,
+  "por_causa": {
+   "cobertura": 1,
+   "retraso de indexacion": 3,
+   "cadena": 2
+  },
+  "recall_juicio_manual": [
+   57,
+   63,
+   0.905,
+   0.807,
+   0.956
+  ],
+  "recall_solo_cadena": [
+   57,
+   59,
+   0.966,
+   0.885,
+   0.991
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Data, code and supplementary material for: Fault-Tolerant Control of Robot Manipulators: A Systematic Review Linking Fault Models to Accommodation Strategies"
+type: dataset
+version: "1.0.0"
+date-released: "2026-11-25"
+license: CC-BY-4.0
+authors:
+  - family-names: "Urrea"
+    given-names: "Claudio"
+    orcid: "https://orcid.org/0000-0001-7197-8928"
+    affiliation: "Department of Electrical Engineering, Faculty of Engineering, University of Santiago of Chile"
+repository-code: "https://github.com/ClaudioUrrea/ftc-manipulators-review"
+identifiers:
+  - type: doi
+    value: "10.6084/m9.figshare.35106610"
+    description: "Archived version (Figshare)"
+  - type: doi
+    value: "10.17605/OSF.IO/ECQA7"
+    description: "Registered protocol (OSF Registries)"

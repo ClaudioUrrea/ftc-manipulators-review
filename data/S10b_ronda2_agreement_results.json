@@ -1,0 +1,429 @@
+{
+ "n_coded": 60,
+ "n_included_by_author": 50,
+ "share_included": [
+  0.833,
+  0.72,
+  0.907
+ ],
+ "strata_sample": {
+  "A1": 15,
+  "A2": 15,
+  "A3": 10,
+  "A4": 10,
+  "A-NR": 10
+ },
+ "author_A_empty": 0,
+ "author_A1_A2_together": [],
+ "by_dimension": [
+  {
+   "dimension": "A:A1 (primary)",
+   "n": 50,
+   "positives_author": 25,
+   "positives_rule": 13,
+   "agreement": 0.68,
+   "kappa": 0.36,
+   "ac1": 0.395,
+   "ci95": {
+    "kappa": [
+     0.161,
+     0.551
+    ],
+    "ac1": [
+     0.154,
+     0.606
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "A:A2 (primary)",
+   "n": 50,
+   "positives_author": 12,
+   "positives_rule": 15,
+   "agreement": 0.82,
+   "kappa": 0.545,
+   "ac1": 0.703,
+   "ci95": {
+    "kappa": [
+     0.278,
+     0.802
+    ],
+    "ac1": [
+     0.535,
+     0.862
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "A:A3 (primary)",
+   "n": 50,
+   "positives_author": 10,
+   "positives_rule": 10,
+   "agreement": 0.92,
+   "kappa": 0.75,
+   "ac1": 0.882,
+   "ci95": {
+    "kappa": [
+     0.5,
+     0.94
+    ],
+    "ac1": [
+     0.765,
+     0.971
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "A:A4 (primary)",
+   "n": 50,
+   "positives_author": 4,
+   "positives_rule": 10,
+   "agreement": 0.88,
+   "kappa": 0.516,
+   "ac1": 0.842,
+   "ci95": {
+    "kappa": [
+     0.151,
+     0.789
+    ],
+    "ac1": [
+     0.756,
+     0.919
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "F:F0",
+   "n": 50,
+   "positives_author": 32,
+   "positives_rule": 35,
+   "agreement": 0.86,
+   "kappa": 0.685,
+   "ac1": 0.749,
+   "ci95": {
+    "kappa": [
+     0.442,
+     0.876
+    ],
+    "ac1": [
+     0.555,
+     0.907
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F1",
+   "n": 50,
+   "positives_author": 6,
+   "positives_rule": 5,
+   "agreement": 0.9,
+   "kappa": 0.49,
+   "ac1": 0.876,
+   "ci95": {
+    "kappa": [
+     -0.027,
+     0.847
+    ],
+    "ac1": [
+     0.746,
+     0.975
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "F:F2",
+   "n": 50,
+   "positives_author": 3,
+   "positives_rule": 3,
+   "agreement": 0.96,
+   "kappa": 0.645,
+   "ac1": 0.955,
+   "ci95": {
+    "kappa": [
+     -0.027,
+     1.0
+    ],
+    "ac1": [
+     0.88,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F4",
+   "n": 50,
+   "positives_author": 5,
+   "positives_rule": 4,
+   "agreement": 0.98,
+   "kappa": 0.878,
+   "ac1": 0.976,
+   "ci95": {
+    "kappa": [
+     0.485,
+     1.0
+    ],
+    "ac1": [
+     0.922,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F5",
+   "n": 50,
+   "positives_author": 2,
+   "positives_rule": 2,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "ci95": {
+    "kappa": [
+     1.0,
+     1.0
+    ],
+    "ac1": [
+     1.0,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F6",
+   "n": 50,
+   "positives_author": 1,
+   "positives_rule": 1,
+   "agreement": 0.96,
+   "kappa": -0.02,
+   "ac1": 0.958,
+   "ci95": {
+    "kappa": [
+     -0.05,
+     0.0
+    ],
+    "ac1": [
+     0.89,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "F:F8",
+   "n": 50,
+   "positives_author": 4,
+   "positives_rule": 3,
+   "agreement": 0.98,
+   "kappa": 0.847,
+   "ac1": 0.977,
+   "ci95": {
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.931,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M1",
+   "n": 50,
+   "positives_author": 33,
+   "positives_rule": 34,
+   "agreement": 0.94,
+   "kappa": 0.864,
+   "ac1": 0.892,
+   "ci95": {
+    "kappa": [
+     0.726,
+     1.0
+    ],
+    "ac1": [
+     0.788,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M3",
+   "n": 50,
+   "positives_author": 7,
+   "positives_rule": 10,
+   "agreement": 0.94,
+   "kappa": 0.789,
+   "ac1": 0.916,
+   "ci95": {
+    "kappa": [
+     0.565,
+     1.0
+    ],
+    "ac1": [
+     0.817,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M4",
+   "n": 50,
+   "positives_author": 7,
+   "positives_rule": 7,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "ci95": {
+    "kappa": [
+     1.0,
+     1.0
+    ],
+    "ac1": [
+     1.0,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M5",
+   "n": 50,
+   "positives_author": 3,
+   "positives_rule": 3,
+   "agreement": 0.92,
+   "kappa": 0.291,
+   "ac1": 0.91,
+   "ci95": {
+    "kappa": [
+     -0.064,
+     0.79
+    ],
+    "ac1": [
+     0.839,
+     0.979
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "E bin",
+   "n": 50,
+   "positives_author": 0,
+   "positives_rule": 0,
+   "agreement": 0.96,
+   "kappa": 0.479,
+   "ac1": 0.957,
+   "ci95": {
+    "kappa": [
+     -0.033,
+     1.0
+    ],
+    "ac1": [
+     0.885,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  }
+ ],
+ "round1_post_hoc": [
+  {
+   "dimension": "round1 A:A1 with v1.8 rules (post hoc)",
+   "n": 24,
+   "positives_author": 17,
+   "positives_rule": 10,
+   "agreement": 0.625,
+   "kappa": 0.299,
+   "ac1": 0.262,
+   "ci95": {
+    "kappa": [
+     0.0,
+     0.595
+    ],
+    "ac1": [
+     -0.096,
+     0.635
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "round1 A:A2 with v1.8 rules (post hoc)",
+   "n": 24,
+   "positives_author": 9,
+   "positives_rule": 10,
+   "agreement": 0.792,
+   "kappa": 0.565,
+   "ac1": 0.601,
+   "ci95": {
+    "kappa": [
+     0.193,
+     0.903
+    ],
+    "ac1": [
+     0.262,
+     0.917
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "round1 A:A3 with v1.8 rules (post hoc)",
+   "n": 24,
+   "positives_author": 7,
+   "positives_rule": 5,
+   "agreement": 0.833,
+   "kappa": 0.56,
+   "ac1": 0.733,
+   "ci95": {
+    "kappa": [
+     0.111,
+     0.895
+    ],
+    "ac1": [
+     0.432,
+     0.945
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "round1 A:A4 with v1.8 rules (post hoc)",
+   "n": 24,
+   "positives_author": 0,
+   "positives_rule": 1,
+   "agreement": 0.958,
+   "kappa": 0.0,
+   "ac1": 0.957,
+   "ci95": {
+    "kappa": [
+     0.0,
+     0.0
+    ],
+    "ac1": [
+     0.858,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  }
+ ],
+ "decision_rule": {
+  "kappa": {
+   "A:A1": 0.36,
+   "A:A2": 0.545
+  },
+  "result": "L1 F x A descriptive only; F x A statements rest on L3"
+ }
+}

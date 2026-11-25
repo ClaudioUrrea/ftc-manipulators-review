@@ -1,0 +1,25 @@
+phase,box,n
+identification,Records identified: Web of Science Core Collection (F01),1509
+identification,Records identified: Scopus (SF01),2056
+identification,Duplicate records removed,1285
+identification,"Other methods: snowball records (OpenAlex, backward and forward, unique)",803
+identification,"Other methods: reviews added to layer R (Zenteno 2021, Urrea 2025, Maican 2025)",3
+screening,"Records screened (title, abstract, author keywords; scripted rules)",2280
+screening,Records excluded: EX-SCOPE,226
+screening,Records excluded: EX-FDI,190
+screening,Records excluded: EX-IC1,127
+screening,Records excluded: EX-IC2,94
+screening,Records excluded: EX-PLAT,74
+screening,Records excluded: EX-FAULT,16
+screening,Records excluded: EX-HW,6
+screening,"Records UNCERTAIN (flagged residue; not in L1; added in a sensitivity analysis, amendment 1.9)",493
+included,Mapping set L1: INCLUDE primary studies (all years),1042
+included,Layer R: reviews retrieved by the strings,12
+included,L1 primary studies 2016-2026 (synthesis window),683
+eligibility,Reports sought for retrieval (L3 = L3-R + L3-P),123
+eligibility,Reports not retrieved,4
+eligibility,Reports assessed for eligibility (full text read),119
+eligibility,Reports excluded at full text,14
+included,Studies included in the synthesis set (full text eligible),105
+supplementary,Non-English complement (SF01e-complemento): records / INCLUDE by rules,107 / 62
+supplementary,Missing-term set (SF08sup): records / INCLUDE primary by rules,482 / 131

@@ -1,0 +1,73 @@
+F,A,n,n_E0E2,n_E3,n_E4,n_hw,status,rids,set
+F0,A1,282,249,1,32,33,hardware evidence,,L1 all years
+F0,A2,188,164,1,23,24,hardware evidence,,L1 all years
+F0,A3,105,90,0,15,15,hardware evidence,,L1 all years
+F0,A4,24,19,0,5,5,hardware evidence,,L1 all years
+F1,A1,32,31,0,1,1,hardware evidence,,L1 all years
+F1,A2,15,13,1,1,2,hardware evidence,,L1 all years
+F1,A3,1,0,1,0,1,hardware evidence,,L1 all years
+F1,A4,1,1,0,0,0,simulation or analysis only,,L1 all years
+F2,A1,14,14,0,0,0,simulation or analysis only,,L1 all years
+F2,A2,12,11,0,1,1,hardware evidence,,L1 all years
+F2,A3,1,1,0,0,0,simulation or analysis only,,L1 all years
+F2,A4,1,1,0,0,0,simulation or analysis only,,L1 all years
+F3,A1,1,1,0,0,0,simulation or analysis only,,L1 all years
+F3,A2,1,1,0,0,0,simulation or analysis only,,L1 all years
+F3,A3,0,0,0,0,0,empty,,L1 all years
+F3,A4,0,0,0,0,0,empty,,L1 all years
+F4,A1,10,9,0,1,1,hardware evidence,,L1 all years
+F4,A2,17,15,0,2,2,hardware evidence,,L1 all years
+F4,A3,64,51,0,13,13,hardware evidence,,L1 all years
+F4,A4,3,3,0,0,0,simulation or analysis only,,L1 all years
+F5,A1,24,22,0,2,2,hardware evidence,,L1 all years
+F5,A2,18,16,0,2,2,hardware evidence,,L1 all years
+F5,A3,21,21,0,0,0,simulation or analysis only,,L1 all years
+F5,A4,0,0,0,0,0,empty,,L1 all years
+F6,A1,18,17,1,0,1,hardware evidence,,L1 all years
+F6,A2,3,2,0,1,1,hardware evidence,,L1 all years
+F6,A3,1,0,0,1,1,hardware evidence,,L1 all years
+F6,A4,0,0,0,0,0,empty,,L1 all years
+F7,A1,0,0,0,0,0,empty,,L1 all years
+F7,A2,4,4,0,0,0,simulation or analysis only,,L1 all years
+F7,A3,2,2,0,0,0,simulation or analysis only,,L1 all years
+F7,A4,1,1,0,0,0,simulation or analysis only,,L1 all years
+F8,A1,26,25,0,1,1,hardware evidence,,L1 all years
+F8,A2,56,55,0,1,1,hardware evidence,,L1 all years
+F8,A3,1,1,0,0,0,simulation or analysis only,,L1 all years
+F8,A4,0,0,0,0,0,empty,,L1 all years
+F0,A1,248,219,0,29,29,hardware evidence,,L1 2016-2026
+F0,A2,122,110,1,11,12,hardware evidence,,L1 2016-2026
+F0,A3,41,32,0,9,9,hardware evidence,,L1 2016-2026
+F0,A4,22,17,0,5,5,hardware evidence,,L1 2016-2026
+F1,A1,29,28,0,1,1,hardware evidence,,L1 2016-2026
+F1,A2,15,13,1,1,2,hardware evidence,,L1 2016-2026
+F1,A3,1,0,1,0,1,hardware evidence,,L1 2016-2026
+F1,A4,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F2,A1,14,14,0,0,0,simulation or analysis only,,L1 2016-2026
+F2,A2,9,8,0,1,1,hardware evidence,,L1 2016-2026
+F2,A3,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F2,A4,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F3,A1,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F3,A2,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F3,A3,0,0,0,0,0,empty,,L1 2016-2026
+F3,A4,0,0,0,0,0,empty,,L1 2016-2026
+F4,A1,7,6,0,1,1,hardware evidence,,L1 2016-2026
+F4,A2,10,8,0,2,2,hardware evidence,,L1 2016-2026
+F4,A3,19,16,0,3,3,hardware evidence,,L1 2016-2026
+F4,A4,3,3,0,0,0,simulation or analysis only,,L1 2016-2026
+F5,A1,11,9,0,2,2,hardware evidence,,L1 2016-2026
+F5,A2,7,6,0,1,1,hardware evidence,,L1 2016-2026
+F5,A3,7,7,0,0,0,simulation or analysis only,,L1 2016-2026
+F5,A4,0,0,0,0,0,empty,,L1 2016-2026
+F6,A1,18,17,1,0,1,hardware evidence,,L1 2016-2026
+F6,A2,3,2,0,1,1,hardware evidence,,L1 2016-2026
+F6,A3,1,0,0,1,1,hardware evidence,,L1 2016-2026
+F6,A4,0,0,0,0,0,empty,,L1 2016-2026
+F7,A1,0,0,0,0,0,empty,,L1 2016-2026
+F7,A2,4,4,0,0,0,simulation or analysis only,,L1 2016-2026
+F7,A3,2,2,0,0,0,simulation or analysis only,,L1 2016-2026
+F7,A4,1,1,0,0,0,simulation or analysis only,,L1 2016-2026
+F8,A1,23,22,0,1,1,hardware evidence,,L1 2016-2026
+F8,A2,37,37,0,0,0,simulation or analysis only,,L1 2016-2026
+F8,A3,0,0,0,0,0,empty,,L1 2016-2026
+F8,A4,0,0,0,0,0,empty,,L1 2016-2026

@@ -1,0 +1,35 @@
+rid,field,first,second,final,reason
+R00005,manipulator class (M),M1,M3,M1,KUKA iiwa used as a single actuated joint with the other joints locked; redundancy plays no role (keep first)
+R00218,manipulator class (M),M1,M5,M1,Kinova Jaco 2 called cooperative but treated as a serial arm; collaborative arms such as UR5 are coded M1 elsewhere (keep first)
+R00021,"fault classes (F, exact set)",F7,F5;F7,F7,Cable break coded as transmission fault F7 only; F5 equivalence noted in the fit (keep first)
+R00135,"fault classes (F, exact set)",F1;F4,F1;F4;F6,F1;F4;F6,Paper states the lock-in-place and LOE faults are time-varying and the numerical example switches psi after onset (F6 missed in first)
+R00158,"fault classes (F, exact set)",F1;F4,F1;F2;F4,F1;F4,"H(z) is a system (process) fault in the electrical dynamics, not an actuator bias; process faults are not coded (keep first)"
+R00231,"fault classes (F, exact set)",F0;F8,F5;F8,F0;F8,Actuator breakdown described verbally without a model: F0 by definition (keep first)
+R00312,"fault classes (F, exact set)",F7,F5;F7,F7,"Cable break coded as F7 only, as R00021 (keep first)"
+R00568,"fault classes (F, exact set)",F1;F2;F6,F1;F4;F6,F1;F4;F6,"TLOE case (omega = 0, delta != 0) is the stuck fault named in the paper: F4t, not a bias added to a working channel"
+R00954,"fault classes (F, exact set)",F2;F6,F1;F2;F3;F5;F6,F2;F6,"Multiplicative, failure and saturation types are only enumerated; design and validation address additive faults (keep first)"
+R01831,"fault classes (F, exact set)",F0,F2;F6,F0,Dead-zone with nonlinear fault functions does not fit F1-F8; F0 with flag (keep first)
+R00568,F4 sub-code,,F4t,F4t,Stuck-at output delta_jh (follows the F correction)
+R00218,primary accommodation family (A),A4,A1,A1,"Codebook A4 = the accommodation itself is learned; neural approximators inside an adaptive law are T-ML (v1.2). The paper assigns fault compensation to the adaptive anti-fault law, while the actor-critic approximates the dynamics and the cost; same rule as R00180 (SMC with adaptive fault compensation plus an RL policy term, A1). A4 kept in A_all"
+R00312,primary accommodation family (A),A3,A2,A3,"Performance is restored by motion with the remaining cables; detection only triggers it (keep first, A2 in A_all)"
+R00005,normal-form fit,yes,full,full,Value 'yes' is not an allowed code; mapping lambda = theta is full
+R00021,normal-form fit,full,partial,partial,Cable break maps to the actuator form only by equivalence (transmission); aligned with R00312
+R00161,normal-form fit,joint-level,full,full,Locked joint fits the joint-level constraint exactly; allowed code is full
+R00231,normal-form fit,none,partial,none,No fault equation is written (keep first)
+R00299,normal-form fit,full,partial,full,"Locked axis is the joint-level constraint qd_i = 0, stated verbally but unambiguous (keep first)"
+R00578,normal-form fit,partial,full,partial,Actuator fault fits; sensor fault lies outside the actuator map (keep first)
+R00954,normal-form fit,yes,full,full,Value 'yes' is not an allowed code; additive fault maps to b_i
+R01831,normal-form fit,none,partial,none,"Nonlinear dead-zone map does not reduce to lambda, b, s (keep first)"
+R00021,R1,0,1,1,Section 5 writes the post-break dynamics with the broken-cable force set to zero (Eqs. 33-34)
+R00312,R1,0,1,1,Structure matrix reduced to n x (m-1) and motor equation of the broken cable written (Eq. 18)
+R00135,R2,0,1,1,Manipulator case states psi = 0.7 for t > 5 s (value not captured in first pass)
+R00299,R2,1,0,1,"L3 convention for locks: the identity of the locked axes (any one or two of six; j3 in the example) is the magnitude, as in R00003, R00013, R00161, R00322, R00682 and R00909 (keep first)"
+R00021,R3,1,0,0,Break applied at the start of each run without an explicit onset time (rule: whole-run fault scores 0)
+R00135,R3,0,1,1,Onset t > 5 s with a step change stated
+R00299,R3,1,0,0,"Axes locked for the whole task, no stated onset"
+R00954,R3,1,0,0,Onset times appear only as markers in figures; not stated in text or tables
+R00135,R4,0,1,1,Injected expression u(t) = 0.7 mu(t) on the single actuator
+R00135,R5,0,1,1,Pre-fault segment and comparison with infinite-time AFFTC under the same faults (numerical example)
+R00158,R5,0,1,1,Pre-fault segment (t < 6 s) plus comparison with AFTC [30] and FTFTC [43] under the same LIE/LIP faults
+R00312,R6,0,1,0,Only detection times are tabulated; no tracking or recovery metric for the faulty case (keep first)
+R00588,R6,0,1,1,"Tables I-IV report evaluation indexes E1, E2 (mean maximum errors) for each fault case"

@@ -1,0 +1,17 @@
+item,topic,location_in_manuscript
+1,Database name,Web of Science Core Collection and Scopus (Section 2.2)
+2,Multi-database searching,Both databases searched on 15 November 2026 and deduplicated (Sections 2.2 and 2.3); Table S2
+3,Study registries,Not searched (not applicable to a methods and modeling review)
+4,Online resources and browsing,Google Scholar was not used because its results are not reproducible (Section 2.2)
+5,Citation searching,Backward and forward snowballing of six reviews with OpenAlex (Section 2.2)
+6,Contacts,No study authors or experts were contacted to identify studies; three reviews were added from the author's knowledge of the field (Figure 1)
+7,Other methods,Reviews added by expert knowledge (Figure 1; Section 2.2)
+8,Full search strategies,Table S2; Files S2b and S2c
+9,Limits and restrictions,"No lower date limit; upper limit is the search date; English-language main corpus, with the non-English complement and the missing-term set screened separately (Section 2.2; Table S2)"
+10,Search filters,"No published search filter was used; the strings combine a manipulator block, a fault-tolerance and accommodation block and a fault block (Section 2.2)"
+11,Prior search strategies,"The strings were written for this review (protocol, File S1); no published search strategy was reused"
+12,Updates,Single search round; no update after 15 November 2026 (Section 2.2)
+13,Dates of searches,15 November 2026 for both databases (Section 2.2; Table S2)
+14,Peer review of search strategies,No structured peer review (PRESS) of the strings; their recall was measured against snowballing instead (Section 2.2) and this is stated as a limitation (Section 4.5)
+15,Total records,Figure 1; Table S3 (2280 unique records screened)
+16,Deduplication,"Section 2.3 (normalized DOI, then title with first-author surname and year)"

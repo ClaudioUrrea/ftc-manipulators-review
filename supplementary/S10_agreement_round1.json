@@ -1,0 +1,509 @@
+{
+ "by_dimension": [
+  {
+   "dimension": "inclusion (rule INCLUDE)",
+   "n": 60,
+   "prevalence_author": 0.417,
+   "agreement": 0.85,
+   "kappa": 0.682,
+   "ac1": 0.718,
+   "ci95": {
+    "po": [
+     0.767,
+     0.933
+    ],
+    "kappa": [
+     0.512,
+     0.854
+    ],
+    "ac1": [
+     0.551,
+     0.878
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "inclusion (rule INCLUDE or UNCERTAIN)",
+   "n": 60,
+   "prevalence_author": 0.417,
+   "agreement": 0.717,
+   "kappa": 0.463,
+   "ac1": 0.437,
+   "ci95": {
+    "po": [
+     0.633,
+     0.8
+    ],
+    "kappa": [
+     0.312,
+     0.609
+    ],
+    "ac1": [
+     0.267,
+     0.611
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "F:F0",
+   "n": 24,
+   "prevalence_author": 0.5,
+   "agreement": 0.875,
+   "kappa": 0.75,
+   "ac1": 0.754,
+   "ci95": {
+    "po": [
+     0.75,
+     1.0
+    ],
+    "kappa": [
+     0.5,
+     1.0
+    ],
+    "ac1": [
+     0.503,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F1",
+   "n": 24,
+   "prevalence_author": 0.042,
+   "agreement": 0.958,
+   "kappa": 0.647,
+   "ac1": 0.953,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.834,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F2",
+   "n": 24,
+   "prevalence_author": 0.042,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "ci95": {
+    "po": [
+     1.0,
+     1.0
+    ],
+    "kappa": [
+     1.0,
+     1.0
+    ],
+    "ac1": [
+     1.0,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F4",
+   "n": 24,
+   "prevalence_author": 0.125,
+   "agreement": 0.958,
+   "kappa": 0.778,
+   "ac1": 0.949,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.834,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F5",
+   "n": 24,
+   "prevalence_author": 0.042,
+   "agreement": 0.958,
+   "kappa": 0.647,
+   "ac1": 0.953,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.834,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F6",
+   "n": 24,
+   "prevalence_author": 0.125,
+   "agreement": 0.917,
+   "kappa": 0.467,
+   "ac1": 0.902,
+   "ci95": {
+    "po": [
+     0.792,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.744,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "F:F7",
+   "n": 24,
+   "prevalence_author": 0.042,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "ci95": {
+    "po": [
+     1.0,
+     1.0
+    ],
+    "kappa": [
+     1.0,
+     1.0
+    ],
+    "ac1": [
+     1.0,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "F:F8",
+   "n": 24,
+   "prevalence_author": 0.125,
+   "agreement": 0.958,
+   "kappa": 0.778,
+   "ac1": 0.949,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.807,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "A:A1",
+   "n": 24,
+   "prevalence_author": 0.708,
+   "agreement": 0.583,
+   "kappa": 0.195,
+   "ac1": 0.189,
+   "ci95": {
+    "po": [
+     0.375,
+     0.792
+    ],
+    "kappa": [
+     -0.109,
+     0.538
+    ],
+    "ac1": [
+     -0.167,
+     0.6
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "A:A2",
+   "n": 24,
+   "prevalence_author": 0.375,
+   "agreement": 0.792,
+   "kappa": 0.565,
+   "ac1": 0.601,
+   "ci95": {
+    "po": [
+     0.625,
+     0.958
+    ],
+    "kappa": [
+     0.182,
+     0.895
+    ],
+    "ac1": [
+     0.262,
+     0.917
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "A:A3",
+   "n": 24,
+   "prevalence_author": 0.292,
+   "agreement": 0.833,
+   "kappa": 0.56,
+   "ac1": 0.733,
+   "ci95": {
+    "po": [
+     0.667,
+     0.958
+    ],
+    "kappa": [
+     0.111,
+     0.882
+    ],
+    "ac1": [
+     0.462,
+     0.94
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "A:A4",
+   "n": 24,
+   "prevalence_author": 0.0,
+   "agreement": 0.958,
+   "kappa": 0.0,
+   "ac1": 0.957,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     0.0
+    ],
+    "ac1": [
+     0.858,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "M:M1",
+   "n": 24,
+   "prevalence_author": 0.542,
+   "agreement": 0.917,
+   "kappa": 0.83,
+   "ac1": 0.838,
+   "ci95": {
+    "po": [
+     0.792,
+     1.0
+    ],
+    "kappa": [
+     0.583,
+     1.0
+    ],
+    "ac1": [
+     0.601,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M2",
+   "n": 24,
+   "prevalence_author": 0.083,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "ci95": {
+    "po": [
+     1.0,
+     1.0
+    ],
+    "kappa": [
+     1.0,
+     1.0
+    ],
+    "ac1": [
+     1.0,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M3",
+   "n": 24,
+   "prevalence_author": 0.167,
+   "agreement": 0.958,
+   "kappa": 0.864,
+   "ac1": 0.94,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.467,
+     1.0
+    ],
+    "ac1": [
+     0.793,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M4",
+   "n": 24,
+   "prevalence_author": 0.083,
+   "agreement": 0.958,
+   "kappa": 0.778,
+   "ac1": 0.949,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.834,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  },
+  {
+   "dimension": "M:M5",
+   "n": 24,
+   "prevalence_author": 0.125,
+   "agreement": 0.917,
+   "kappa": 0.467,
+   "ac1": 0.902,
+   "ci95": {
+    "po": [
+     0.792,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.723,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": true
+  },
+  {
+   "dimension": "E bin",
+   "n": 24,
+   "prevalence_author": 0.042,
+   "agreement": 0.958,
+   "kappa": 0.647,
+   "ac1": 0.953,
+   "ci95": {
+    "po": [
+     0.875,
+     1.0
+    ],
+    "kappa": [
+     0.0,
+     1.0
+    ],
+    "ac1": [
+     0.846,
+     1.0
+    ]
+   },
+   "kappa_below_0_60": false
+  }
+ ],
+ "by_rule_stratum": {
+  "INCLUDE": {
+   "n": 20,
+   "author_include": 18,
+   "p_wilson": [
+    0.9,
+    0.699,
+    0.972
+   ],
+   "N_h": 1054
+  },
+  "UNCERTAIN": {
+   "n": 20,
+   "author_include": 6,
+   "p_wilson": [
+    0.3,
+    0.145,
+    0.519
+   ],
+   "N_h": 493
+  },
+  "EXCLUDE": {
+   "n": 20,
+   "author_include": 1,
+   "p_wilson": [
+    0.05,
+    0.009,
+    0.236
+   ],
+   "N_h": 733
+  }
+ },
+ "precision_INCLUDE": [
+  0.9,
+  0.699,
+  0.972
+ ],
+ "npv_EXCLUDE": [
+  0.95,
+  0.764,
+  0.991
+ ],
+ "est_in_scope_total": 1133.2,
+ "n_coded": 60,
+ "n_codes_compared": 24
+}

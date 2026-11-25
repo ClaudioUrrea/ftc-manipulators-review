@@ -1,0 +1,36 @@
+dimension,code,n,share
+F,F0,4,0.038
+F,F1,70,0.667
+F,F2,50,0.476
+F,F3,0,0.0
+F,F4,16,0.152
+F,F5,4,0.038
+F,F6,52,0.495
+F,F7,5,0.048
+F,F8,15,0.143
+F4 sub-code,F4t,9,0.086
+F4 sub-code,F4q,7,0.067
+A primary,A1,38,0.362
+A primary,A2,50,0.476
+A primary,A3,12,0.114
+A primary,A4,5,0.048
+A any,A1,42,0.4
+A any,A2,56,0.533
+A any,A3,15,0.143
+A any,A4,11,0.105
+M,M1,79,0.752
+M,M2,6,0.057
+M,M3,5,0.048
+M,M4,4,0.038
+M,M5,9,0.086
+M,M6,2,0.019
+E level,E0,0,0.0
+E level,E1,66,0.629
+E level,E2,9,0.086
+E level,E3,1,0.01
+E level,E4,29,0.276
+tag,T_ML,46,0.438
+tag,T_DT,1,0.01
+tag,T_OPEN,1,0.01
+tag,T_BENCH,1,0.01
+F,more than one F code,70,0.667

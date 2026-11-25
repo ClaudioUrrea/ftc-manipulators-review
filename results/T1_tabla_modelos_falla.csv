@@ -1,0 +1,10 @@
+code,fault_model,normal_form,L1_2016_2026,L3_n,L3_hardware,L3_hardware_study_level,L3_hardware_no_EAMBIG,A1,A2,A3,A4,full_actuation,structural_reserve,fault_info_used,fault_assumed_known,sensing_beyond_q_dq,delay_quantified,normal_form_full
+F1,Loss of effectiveness,0 < lambda_i < 1,44,70,21,22,21,32,34,2,2,59,12,37,2,10,0,67
+F2,Additive bias or drift,b_i != 0,23,50,11,14,11,17,30,1,2,48,2,31,0,6,2,39
+F3,Reduced torque bound,u_bar_i below nominal after onset,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+F4t,Stuck actuator,"s_i = 1, tau_bar_i fixed",,9,0,2,0,5,2,1,1,1,9,3,1,2,0,9
+F4q,Locked joint,"dq_i = 0, q_i = q_i(t_f)",,7,5,5,5,0,0,7,0,0,7,7,5,1,0,7
+F5,Free-swinging joint,"lambda_i = 0, b_i = 0",28,4,0,1,0,1,0,3,0,0,4,3,3,0,0,4
+F6,Intermittent or time-varying,"lambda_i, b_i or s_i time-varying or switching",23,52,14,17,14,21,27,1,3,44,9,30,1,7,2,47
+F7,Transmission,motor-to-joint map changes,8,5,3,3,3,0,1,3,1,1,5,5,2,5,2,0
+F8,Sensor (secondary),y_i = q_i + delta_i,62,15,2,2,2,3,11,0,1,13,2,12,0,7,2,6

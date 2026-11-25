@@ -1,0 +1,41 @@
+# CADENAS_DEFINITIVAS_SCOPUS.txt — Paper R1 — RS1, 15-11-2026 (protocolo v1.3; las cadenas no cambian desde v1.0)
+# Scopus > Advanced document search. Precedencia: OR > AND > AND NOT; AND NOT solo en combinaciones del historial y siempre al final.
+# Frases entre comillas = frase laxa (ignora guion y plural). Mismos códigos que CADENAS_DEFINITIVAS_WOS.txt (SF## = F##).
+# RS2 registra fecha (la misma que WoS), número en el historial y conteo en BRECHA_WOS.md (sección "RS2").
+
+SF01 corpus principal (todos los años; exportar completo):
+TITLE-ABS-KEY("fault toleran*" OR "failure toleran*" OR "fault accommodat*" OR "fault compensat*" OR "fault recover*" OR "failure recover*" OR "reconfigurable control*" OR "control reconfigur*" OR "post fault*" OR "post failure" OR "graceful degradation" OR "actuator fault*" OR "actuator failure*" OR "loss of effectiveness" OR "stuck actuator*" OR "actuator stuck" OR "lock in place" OR "motor fault*" OR "motor failure*" OR "joint failure*" OR "joint fault*" OR "locked joint*" OR "joint locking" OR "joint lock" OR "jammed joint*" OR "joint jam*" OR "free swinging" OR "intermittent fault*" OR "sensor fault*" OR "sensor failure*" OR "encoder fault*" OR "encoder failure*") AND TITLE-ABS-KEY(manipulator* OR "robot* arm*" OR "robotic arm*" OR "industrial robot*" OR "serial robot*" OR "parallel robot*" OR "redundant robot*" OR "collaborative robot*" OR cobot* OR scara OR "delta robot*" OR "space robot*" OR "robot* joint*" OR "dual arm*" OR "multi arm*" OR "articulated robot*" OR "continuum robot*" OR "stewart platform*") AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp)) AND LANGUAGE(english) AND PUBYEAR < 2027
+
+SF01e efecto del filtro de idioma (solo conteo): SF01 sin "AND LANGUAGE(english)".
+
+SF02 complemento diagnóstico + acomodación (solo conteo y muestra):
+TITLE-ABS-KEY("fault detect*" OR "fault diagnos*" OR "fault isolat*" OR "fault estimat*" OR "fault identif*") AND TITLE-ABS-KEY(manipulator* OR "robot* arm*" OR "robotic arm*" OR "industrial robot*" OR "serial robot*" OR "parallel robot*" OR "redundant robot*" OR "collaborative robot*" OR cobot* OR scara OR "delta robot*" OR "space robot*" OR "robot* joint*" OR "dual arm*" OR "multi arm*" OR "articulated robot*" OR "continuum robot*" OR "stewart platform*") AND TITLE-ABS-KEY(reconfigur* OR accommodat* OR compensat* OR redundan* OR recover*) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp)) AND LANGUAGE(english) AND PUBYEAR < 2027
+SF02c = combinar en el historial: (#SF02) AND NOT (#SF01) -> conteo. Muestra aleatoria de 100 (semilla 20261116).
+
+SF03 conocidos: AU-ID registrado en S09 (E2-W) AND #SF01 -> conteo; comparar con S09 (21).
+
+SF04 revista objetivo dentro del corpus: (#SF01) AND ISSN(20760825)
+SF04s (RS2, revista objetivo vigente = Sensors): (SF01) AND ISSN(14248220) -> 13 el 15-11-2026. SF04 con el ISSN de Actuators queda como control de registros conocidos.
+
+SF05 revisiones dentro del corpus (capa R): (#SF01) AND DOCTYPE(re)
+
+## Conteos de control (antes de exportar)
+- SF01 entre 1900 y 4500 (S02 = 2024). Piloto del 15-11 (sin exportar): SF01 = 2056; SF01 / F01 = 1,36; sintaxis correcta.
+- SF01 / F01 entre 1,1 y 1,8 (S02 / W02 = 1,44). Fuera de rango: revisar DOCTYPE, LANGUAGE y PUBYEAR.
+- SF02c / SF01 > 0,30: revisar la muestra antes de seguir.
+- SF03: deben estar los propios en alcance listados en CADENAS_DEFINITIVAS_WOS.txt.
+- SF04 debe contener los 4 INCLUDE de KNOWN_ITEMS_ACTUATORS.csv; si falta alguno: enmienda de cadena (protocolo v1.3; las cadenas no cambian desde v1.0).
+
+## Exportación (RS2; autorización única del autor)
+Export > CSV con todos los campos (citation, bibliographical, abstract & keywords, funding, include references) y, en paralelo, BibTeX con los mismos campos; lotes según el límite que muestre Scopus.
+Nombre: S01_SF01_Scopus_<lote>_<AAAA-MM-DD>.csv / .bib; S02c_muestra100; S05_SF05.
+Destino: 00 · DATOS (no se editan).
+
+SF06 revisiones semilla: (#SF01) AND (DOCTYPE(re) OR TITLE(review OR survey OR overview)) -> mismas comprobaciones que F06.
+SF07 tamaño de EX-SCOPE: (#SF01) AND TITLE-ABS-KEY("multi robot*" OR "multi agent*" OR "multiple robots" OR swarm* OR "formation control" OR consensus)
+SF04s revista objetivo (Sensors): (#SF01) AND ISSN(14248220) -> exportar como S04s.
+
+## Consultas complementarias de RS2 (15-11-2026; no forman parte del corpus principal; protocolo v1.5)
+SF01e-complemento (registros no ingleses, para listar los que están en alcance): bloque de falla AND bloque de manipulador AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp)) AND PUBYEAR < 2027 AND NOT LANGUAGE(english) -> 107. Export: S01e_SF01e_Scopus_no-ingles_2026-11-15.csv
+SF08sup (términos que el bloque de manipulador no cubre, hallados por la bola de nieve): bloque de falla AND TITLE-ABS-KEY("multi joint robot*" OR "multijoint robot*" OR "robotic system*" OR "robot system*" OR "multi link robot*" OR "n link robot*") AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp)) AND LANGUAGE(english) AND PUBYEAR < 2027 AND NOT bloque de manipulador de SF01 -> 482. Export: S08sup_SF08sup_Scopus_terminos-perdidos_2026-11-15.csv
+SF03: no ejecutada. El control de trabajos propios se hizo con la etiqueta OWN del corpus (11 registros = F03 de WoS). AU-ID del autor en Scopus: 24078008600.

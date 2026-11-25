@@ -1,0 +1,15 @@
+rid,sample,doi,year,first_author,title,reason,reason_text,replaced_by
+R01608,L3-R,10.1109/iciscae66104.2025.11307315,2025,Chen J.,Research on Improvement of Intelligent Robot Control System,IC2,No actuator or joint fault model,
+R00715,L3-R,10.1016/j.compeleceng.2020.106951,2021,"Urrea, Claudio",Design and implementation of a fault-tolerant system for industrial robots under hostile operating conditions,EX-FAULT,Fault type outside scope,
+R01931,L3-R,10.3389/frobt.2019.00151,2020,Kaushik R.,Adaptive Prior Selection for Repertoire-Based Online Adaptation in Robotics,EX-PLAT,Other platform,
+R00093,L3-R,10.1177/02783649251401930,2026,"Baradaran Birjandi, Seyed Ali",Fault-tolerant decentralized multi-sensor link velocity and acceleration estimation for elastic-joint robots,EX-FDI,Diagnosis without accommodation,
+R00951,L3-R,10.1109/ddcls.2018.8515934,2018,"Li, Kene",Fault-Tolerant Motion Planning of Redundant Manipulator with Initial Position Error,IC2,No actuator or joint fault model,
+R01017,L3-R,10.1016/j.ijleo.2017.02.071,2017,"Wang, Zheng",Adaptive attitude takeover control for space non-cooperative targets with stochastic actuator faults,EX-PLAT,Other platform,
+R01777,L3-R,10.1109/smc53992.2023.10394481,2023,Clark C.L.,Predicting Fault-Tolerant Workspace of Planar 3R Robots Experiencing Locked Joint Failures Using Mixture Density Networks,EX-HW,"Fault-tolerant configuration without a defined post-failure behavior (rule (d), amendment 1.10)",
+R00190,L3-R,10.3390/en18154020,2025,"Luo, Xian",Fault-Tolerant Control of Non-Phase-Shifted Dual Three-Phase PMSM Joint Motor for Open Phase Fault with Minimized Copper Loss and Reduced Torque Ripple,EX-PLAT,Other platform,
+R00315,L3-R,10.3390/machines12110776,2024,"Guida, Roberto",Comprehensive Analysis of Major Fault-to-Failure Mechanisms in Harmonic Drives,EX-FDI,Diagnosis without accommodation,
+R01067,L3-R,10.13031/aea.32.10701,2016,"Zou, X.",FAULT-TOLERANT DESIGN OF A LIMITED UNIVERSAL FRUIT-PICKING END-EFFECTOR BASED ON VISION-POSITIONING ERROR,EX-HW,Design without a control law,
+R00470,L3-P,10.1016/j.engappai.2023.106650,2023,"Li, Menghan",Adaptive finite-time fault-tolerant control for the full-state-constrained robotic manipulator with novel given performance,IC2,No actuator or joint fault model,none (no reserve record for this cell)
+R00340,L3-P,10.1109/tase.2023.3286663,2024,"Jia, Fanlin",Predefined-Time Fault-Tolerant Control for a Class of Nonlinear Systems With Actuator Faults and Unknown Mismatched Disturbances,EX-PLAT,Other platform,R00990
+R00910,L3-P,10.1109/tii.2018.2812754,2018,"Yang, Hongyan",Fault-Tolerant Control of Time-Delay Markov Jump Systems With Ito Stochastic Process and Output Disturbance Based on Sliding Mode Observer,EX-PLAT,Other platform,R00877
+R00508,L3-P,10.1109/tsmc.2023.3241365,2023,"Chen, Xiangyong",Reduced-Order Observer-Based Preassigned Finite-Time Control of Nonlinear Systems and Its Applications,IC2,No actuator or joint fault model,R00074

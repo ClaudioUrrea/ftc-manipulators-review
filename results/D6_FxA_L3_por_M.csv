@@ -1,0 +1,73 @@
+F,A,n,n_E0E2,n_E3,n_E4,n_hw_study,n_hw_no_EAMBIG,rids_hw,n_hw,status,rids,M_group,n_group
+F0,A1,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F0,A2,2,2,0,0,1,0,,0,simulation or analysis only,R01831;R01644,M1 serial,79
+F0,A3,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F0,A4,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F1,A1,29,24,0,5,5,5,R00460;R00218;R00613;R00463;R00783,5,hardware evidence,R00880;R00748;R00036;R00409;R00801;R01817;R00586;R00878;R00272;R00131;R00460;R00135;R00863;R00218;R00843;R00856;R00827;R00613;R00463;R01707;R00461;R00394;R00568;R00783;R00667;R00763;R00383;R00541;R00990,M1 serial,79
+F1,A2,28,17,1,10,12,11,R00790;R00500;R00088;R00257;R00045;R00096;R00615;R00550;R00213;R00446;R00918,11,hardware evidence,R00475;R01602;R00790;R00500;R00088;R00005;R01920;R00689;R00257;R00045;R00301;R00096;R00785;R00982;R00615;R00550;R00655;R00316;R00700;R00213;R01770;R00824;R01046;R00446;R00918;R00388;R00588;R00877,M1 serial,79
+F1,A3,1,0,0,1,1,1,R00139,1,hardware evidence,R00139,M1 serial,79
+F1,A4,2,2,0,0,0,0,,0,simulation or analysis only,R00158;R00698,M1 serial,79
+F2,A1,13,11,0,2,3,2,R00460;R00783,2,hardware evidence,R00409;R00552;R00586;R00272;R00131;R00460;R00863;R00218;R00458;R00461;R00783;R00383;R00990,M1 serial,79
+F2,A2,26,21,0,5,7,5,R00790;R00500;R00096;R00550;R00918,5,hardware evidence,R00475;R00790;R00500;R00998;R00300;R00689;R00301;R00518;R00096;R00785;R00495;R00982;R00550;R00384;R00655;R00316;R00700;R01770;R00824;R01046;R00446;R00918;R00388;R00578;R00396;R00588,M1 serial,79
+F2,A3,1,0,0,1,1,1,R00139,1,hardware evidence,R00139,M1 serial,79
+F2,A4,2,2,0,0,0,0,,0,simulation or analysis only,R01741;R00305,M1 serial,79
+F3,A1,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F3,A2,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F3,A3,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F3,A4,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F4,A1,5,5,0,0,0,0,,0,simulation or analysis only,R00135;R00843;R00856;R01707;R00568,M1 serial,79
+F4,A2,1,1,0,0,1,0,,0,simulation or analysis only,R00615,M1 serial,79
+F4,A3,2,2,0,0,1,0,,0,simulation or analysis only,R00139;R00299,M1 serial,79
+F4,A4,1,1,0,0,0,0,,0,simulation or analysis only,R00158,M1 serial,79
+F5,A1,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F5,A2,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F5,A3,1,1,0,0,1,0,,0,simulation or analysis only,R00139,M1 serial,79
+F5,A4,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F6,A1,19,15,0,4,5,4,R00460;R00613;R00463;R00375,4,hardware evidence,R00880;R00748;R00409;R00801;R00586;R00272;R00131;R00460;R00135;R00218;R00856;R00827;R00613;R00463;R01707;R00568;R00375;R00383;R00990,M1 serial,79
+F6,A2,21,15,1,5,8,6,R00790;R00500;R00088;R00096;R00550;R00213,6,hardware evidence,R00475;R00790;R00500;R00998;R00088;R00689;R00301;R00096;R00785;R00615;R00550;R01959;R00655;R00316;R00213;R01770;R01046;R00578;R00396;R00588;R00877,M1 serial,79
+F6,A3,1,0,0,1,1,1,R00139,1,hardware evidence,R00139,M1 serial,79
+F6,A4,3,3,0,0,0,0,,0,simulation or analysis only,R01741;R00305;R00698,M1 serial,79
+F7,A1,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F7,A2,1,0,0,1,1,1,R01644,1,hardware evidence,R01644,M1 serial,79
+F7,A3,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F7,A4,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F8,A1,3,2,0,1,1,1,R00375,1,hardware evidence,R00272;R00227;R00375,M1 serial,79
+F8,A2,8,7,0,1,1,1,R01644,1,hardware evidence,R01835;R00998;R01644;R00730;R01959;R00384;R00578;R00877,M1 serial,79
+F8,A3,0,0,0,0,0,0,,0,empty,,M1 serial,79
+F8,A4,1,1,0,0,0,0,,0,simulation or analysis only,R01741,M1 serial,79
+F0,A1,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F0,A2,2,2,0,0,0,0,,0,simulation or analysis only,R00866;R00231,M2-M6 other classes,26
+F0,A3,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F0,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F1,A1,3,1,0,2,2,2,R00935;R00980,2,hardware evidence,R00935;R00980;R00180,M2-M6 other classes,26
+F1,A2,6,5,0,1,1,1,R00028,1,hardware evidence,R00705;R00028;R00699;R00386;R00681;R00074,M2-M6 other classes,26
+F1,A3,1,0,0,1,1,1,R00003,1,hardware evidence,R00003,M2-M6 other classes,26
+F1,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F2,A1,4,2,0,2,2,2,R00935;R00980,2,hardware evidence,R00469;R00935;R00980;R00180,M2-M6 other classes,26
+F2,A2,4,3,0,1,1,1,R00028,1,hardware evidence,R00954;R00705;R00028;R00981,M2-M6 other classes,26
+F2,A3,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F2,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F3,A1,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F3,A2,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F3,A3,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F3,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F4,A1,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F4,A2,1,1,0,0,0,0,,0,simulation or analysis only,R00386,M2-M6 other classes,26
+F4,A3,6,1,0,5,5,5,R00003;R00013;R00161;R00322;R00760,5,hardware evidence,R00003;R00013;R00161;R00322;R00760;R01043,M2-M6 other classes,26
+F4,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F5,A1,1,1,0,0,0,0,,0,simulation or analysis only,R00682,M2-M6 other classes,26
+F5,A2,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F5,A3,2,2,0,0,0,0,,0,simulation or analysis only,R01043;R00909,M2-M6 other classes,26
+F5,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F6,A1,2,0,0,2,2,2,R00935;R00980,2,hardware evidence,R00935;R00980,M2-M6 other classes,26
+F6,A2,6,5,0,1,1,1,R00028,1,hardware evidence,R00954;R00705;R00028;R00981;R00386;R00074,M2-M6 other classes,26
+F6,A3,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F6,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F7,A1,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F7,A2,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F7,A3,3,2,0,1,1,1,R00312,1,hardware evidence,R00021;R00312;R00480,M2-M6 other classes,26
+F7,A4,1,0,0,1,1,1,R00141,1,hardware evidence,R00141,M2-M6 other classes,26
+F8,A1,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F8,A2,3,3,0,0,0,0,,0,simulation or analysis only,R00866;R00981;R00231,M2-M6 other classes,26
+F8,A3,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26
+F8,A4,0,0,0,0,0,0,,0,empty,,M2-M6 other classes,26

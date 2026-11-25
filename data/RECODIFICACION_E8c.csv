@@ -1,0 +1,97 @@
+rid,field,value,source
+R00003,hw_fault_classes,F4;F1,"arXiv 2605.20561 Table I and Fig. 9: Broken 1, Broken 1 & 4 and Roller 6 at 66% speed run on the 2D hardware testbed"
+R00013,hw_fault_classes,F4,ficha platform/injection: xArm6 J2 lock (E_AMBIG)
+R00028,hw_fault_classes,F1;F2;F6,ficha fault_magnitude (experiment: time-varying effectiveness and bias); PDF Sec. 6
+R00045,hw_fault_classes,F1,ficha: experiment only
+R00088,hw_fault_classes,F1;F6,ficha: time-varying input gain in the HIL loop
+R00096,hw_fault_classes,F1;F2;F6,ficha fault_magnitude (experiment: interval efficiency loss and sinusoidal bias)
+R00139,hw_fault_classes,F5;F1;F2;F4;F6,PDF Sec. V: both fault scenarios run on the Quanser platform (E_AMBIG: three virtual actuators split from one motor input)
+R00139,hw_note,all classes applied to three virtual actuator channels split from one motor input (E_AMBIG),PDF Sec. V
+R00141,hw_fault_classes,F7,ficha: damaged cable designated in the planner and path executed on the physical robot
+R00141,hw_note,"cable damage designated, not physically produced",ficha injection
+R00161,hw_fault_classes,F4,ficha: failed joints held in the commanded velocities (Gen3)
+R00213,hw_fault_classes,F1;F6,ficha: experiment only
+R00218,hw_fault_classes,F1,PDF Sec. V: joint 1 effectiveness swept 0.1-1 during 20-30 s; bias and interval profile only in simulation
+R00218,hw_note,F2 and F6 only in simulation,PDF Sec. V
+R00257,hw_fault_classes,F1,ficha: same fault in experiment
+R00299,hw_fault_classes,F4,ficha: axis blocked in the command on the RV-12SDL
+R00312,hw_fault_classes,F7,ficha: electromagnet cable release
+R00322,hw_fault_classes,F4,ficha: locked joint by command on the dual xArm 6
+R00375,hw_fault_classes,F8;F6,ficha: sensor faults on the Quanser 2DSFL
+R00446,hw_fault_classes,F1,ficha fault_magnitude: experiment 30/50/70 % loss; bias only in simulation
+R00446,hw_note,F2 only in simulation,ficha fault_magnitude
+R00460,hw_fault_classes,F1;F2;F6,"ficha: experiment parameters as simulation 1, onset at 15 s (from figure captions)"
+R00460,hw_note,hardware fault parameters inferred from figure captions,ficha injection and notes
+R00463,hw_fault_classes,F1;F6,ficha: same conditions as simulation
+R00495,hw_fault_classes,F2,ficha: offset added to the actuator output torque
+R00550,hw_fault_classes,F1;F2;F6,ficha injection: command scaled and biased per fault case (experiment)
+R00613,hw_fault_classes,F1;F6,ficha: same in experiment
+R00615,hw_fault_classes,F1,ficha: experiment K_t = 0.1 I_7 at 0.5 s; TLOE (F4t) and stepwise profile only in simulation
+R00615,hw_note,"F4 (stuck, redundant-actuator scheme) and F6 only in simulation; Baxter has one motor per joint",ficha notes
+R00760,hw_fault_classes,F4,ficha: joint velocity commands forced to zero on the iiwa
+R00783,hw_fault_classes,F1;F2,ficha: experiment only
+R00785,hw_fault_classes,NR,"MDPI full text Sec. 6: single fault on joint 2; class, magnitude and injection not stated"
+R00785,hw_note,fault class of the hardware run not stated; no fault class counted as hardware-validated,MDPI full text
+R00790,hw_fault_classes,F1;F2;F6,ficha fault_magnitude (experiment)
+R00918,hw_fault_classes,F1;F2,ficha: additive 5 N m and 20 % loss on the testbed
+R00935,hw_fault_classes,F1;F2;F6,"ficha fault_magnitude (experiment: phi = 0.9 + 0.1 sin t, bias 0.01 sin t)"
+R00980,hw_fault_classes,F1;F2;F6,ficha: effectiveness and bias on arm 3 of the test bed
+R01644,hw_fault_classes,F7;F8;F0,"ficha: injected joint wear, encoder drift and reducer faults (mechanism not described)"
+R01644,hw_note,injection mechanism not described,ficha injection
+R00475,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00801,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00586,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00878,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00998,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00088,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00135,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00705,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00843,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00158,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00981,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00305,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00856,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00568,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R01046,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00667,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00698,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00699,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00763,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00578,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00383,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00541,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00396,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00588,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00990,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00877,scope_flag,GEN,"title states a generic system class (nonlinear, stochastic, fractional-order, switched, fuzzy or Markov-jump systems) and a manipulator model is the validation plant; read from title, robot_model and notes"
+R00180,scope_flag,NET,"network of manipulators; actuator fault of an individual arm, accommodated locally (ficha fault_equation, mechanism)"
+R00386,scope_flag,NET,"network of manipulators; actuator fault of an individual arm, accommodated locally (ficha fault_equation, mechanism)"
+R00980,scope_flag,NET,"network of manipulators; actuator fault of an individual arm, accommodated locally (ficha fault_equation, mechanism)"
+R00003,scope_flag,RULE-IC1,"robotic mechanism positioning an end effector with actuated rollers (IC1 rule, amendment 1.10)"
+R00312,scope_flag,RULE-IC3,"safe degradation: end effector brought to a safe pose (IC3 rule, amendment 1.10)"
+R00139,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00135,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00615,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00843,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00158,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00856,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R01707,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00568,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00386,reserve_type,modeled redundant inputs,structural_condition: redundant actuators or inputs assumed in the model; none physically present
+R00013,reserve_type,kinematic redundancy of the arm,structural_condition
+R00161,reserve_type,kinematic redundancy of the arm,structural_condition
+R00322,reserve_type,kinematic redundancy of the arm,structural_condition
+R00299,reserve_type,kinematic redundancy of the arm,structural_condition
+R00760,reserve_type,kinematic redundancy of the arm,structural_condition
+R01043,reserve_type,kinematic redundancy of the arm,structural_condition
+R00909,reserve_type,kinematic redundancy of the arm,structural_condition
+R00003,reserve_type,physical actuation redundancy,structural_condition: redundant rollers of the physical truss
+R00682,reserve_type,underactuation of the arm,structural_condition: dynamic coupling of the free-floating base
+R00021,F7_sub,F7c,"cable break or damage in a cable-driven robot: an actuation channel is lost (fault_equation, injection)"
+R00141,F7_sub,F7c,"cable break or damage in a cable-driven robot: an actuation channel is lost (fault_equation, injection)"
+R00312,F7_sub,F7c,"cable break or damage in a cable-driven robot: an actuation channel is lost (fault_equation, injection)"
+R00480,F7_sub,F7c,"cable break or damage in a cable-driven robot: an actuation channel is lost (fault_equation, injection)"
+R01644,F7_sub,F7r,reducer faults and joint wear; mechanism not described (fault_equation)
+R01777,ft_eligible,no,"accepted manuscript (NSF PAR 10530180), Sec. V: the paper designs artificial joint limits; it does not state how the arm moves after the locked joint (no controller, redundancy resolution or replanning), so the A3 rule of amendment 1.10 is not met"
+R01777,ft_exclusion,EX-HW,hardware (kinematic) design without a control law (protocol Section 5)
+R01777,notes_append,"E8-c (25-11-2026): re-read in the accepted manuscript (NSF PAR purl 10530180; IEEE full text blocked by a bot challenge on the proxy). Sec. V designs artificial joint limits from the predicted fault-tolerant workspace and reports a Kinova Gen3 run (joints 1, 3, 5 and 7 locked to form a planar 3R arm) in which a trajectory inside the workspace is completed after joint 2, 4 or 6 is locked; how the joint motions after the failure are computed and how the lock is imposed are not stated. The post-failure behavior of the arm is not defined, so the study is excluded (EX-HW) under the A3 rule of amendment 1.10. E was not recoded (the ficha value E0 predates this reading; the run on the Kinova Gen3 would have made it at least E_AMBIG). L3-R report: not replaced.",E8-c decision delegated by the author (E8-05)

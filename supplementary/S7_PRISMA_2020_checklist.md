@@ -1,0 +1,48 @@
+# Supplementary File S7. PRISMA 2020 checklist
+
+Locations refer to the numbered sections, tables and figures of the manuscript.
+
+| Item | Topic | Location |
+|---|---|---|
+| 1 | Title | Title: identifies the report as a systematic review |
+| 2 | Abstract | Abstract (structured summary of objectives, methods, results, limits) |
+| 3 | Rationale | Section 1 |
+| 4 | Objectives | Section 1 (five questions RQ1-RQ5) |
+| 5 | Eligibility criteria | Section 2.3; File S1, Section 5 |
+| 6 | Information sources | Section 2.2; Table S2 |
+| 7 | Search strategy | Section 2.2; Table S2; Files S2b and S2c (full strings) |
+| 8 | Selection process | Section 2.3 (scripted rules, validated against blind human coding, Section 2.5); one human coder, declared as a limitation (Section 4.5) |
+| 9 | Data collection process | Section 2.6: extraction with generative-AI assistance under the protocol and its data dictionary by a single extractor, with flagged decisions adjudicated by the review author; a second, blind extraction of 20 studies with the same assisted procedure is a reproducibility check of the procedure, not an independent duplicate extraction (90% of fields agreed; File S10, S10c); a third extraction targeted at the F4q, F5 and F7 studies plus five at random (20 studies) was coded in a separate session with the same assistance, without access to the first extraction, and its 16 discrepancies were readjudicated with AI assistance by applying the written rules first, with a declared tie-break that was not needed (12 extraction errors corrected, 4 errors of the third extraction; File S10, S10d); the recoding of 20 studies by the review author failed an internal-consistency criterion fixed after the sheet was saved and before it was opened (revised twice, still unopened); the rule fixed beforehand was to omit it if it failed, and after the failure the author decided to use it only to detect extraction errors (declared deviation; after seeing the result the author corrected two of the three flagged rows and kept the third; the failed check concerned only passive codes with the fault known to the controller, a combination that the extraction rule later admitted, Section 2.4, and the pre-specified result is kept); its 107 discrepancies were adjudicated with AI assistance (15 extraction errors in 7 studies corrected; File S10, S10e); the same consistency checks, applied afterwards to the extraction, flagged 5 studies (2 passive schemes with the fault given a priori, which the extraction rule admits, and 3 entries worded outside the vocabulary, rewritten), and the checks under the extraction rule with added checks flagged 17 cases in 13 studies, all resolved against the full text (11 studies corrected, 2 codes confirmed; File S10, S10e); the 65 studies first coded passive were reread under the literal A1/A2 reading (27 recoded; File S1, Section 13.1); no extraction was verified by an independent human reviewer, and agreement is reported descriptively, not as proof of validity; automation tool named in Section 2.8 and the Acknowledgments; limitation in Section 4.5 |
+| 10a | Data items: outcomes | Sections 2.4 and 2.7; File S9 |
+| 10b | Data items: other variables | Section 2.6; Table S5 |
+| 11 | Study risk of bias assessment | Not applicable as risk of bias: the review maps and synthesizes modeling and evidence practice. Reporting quality was scored with the ten-item checklist R1-R10 (Sections 2.6 and 3.5) |
+| 12 | Effect measures | Section 2.7 (odds ratio with Woolf 95% CI; Wilson intervals; Rogan-Gladen correction) |
+| 13a | Synthesis eligibility | Sections 2.1, 2.3 and 2.6 (mapping set L1; synthesis set L3) |
+| 13b | Data preparation for synthesis | Sections 2.4 and 2.6 |
+| 13c | Tabulation and visual display | Sections 3.2-3.5; Tables 1-7; Figures 1-6 |
+| 13d | Synthesis methods | Section 2.7 |
+| 13e | Exploration of heterogeneity | Sections 2.7 and 3.4 (manipulator class and period); Table S11 |
+| 13f | Sensitivity analyses | Sections 2.7 and 3.6; Table S13 |
+| 14 | Reporting bias assessment | Not assessed formally; discussed in Section 4.5 (indexing, language and source coverage; recall in Section 2.2) |
+| 15 | Certainty assessment | Not applicable (no pooled effect of an intervention); evidence level E0-E4 is described in Section 2.4 |
+| 16a | Study selection | Section 3.1; Figure 1 (with the reasons for full-text exclusion); Table S3 |
+| 16b | Excluded studies | Section 3.1; Table S4 |
+| 17 | Study characteristics | Section 3.1; Table S5; Table S6 |
+| 18 | Risk of bias in studies | See item 11 (reporting score, Section 3.5, Figure 6) |
+| 19 | Results of individual studies | Table S5 (per-study); Table 1 (best-reported examples) |
+| 20a | Results of syntheses: characteristics and bias | Sections 3.2-3.5 |
+| 20b | Results of syntheses: statistical syntheses | Section 3.5; Table 5; Figures 4 and 5 (registered hypotheses reported as a secondary analysis) |
+| 20c | Results of syntheses: heterogeneity | Sections 3.3 and 3.4; Table S11 |
+| 20d | Results of syntheses: sensitivity | Section 3.6; Table S13 |
+| 21 | Reporting biases | Not assessed formally (see item 14) |
+| 22 | Certainty of evidence | Not applicable (see item 15) |
+| 23a | Discussion: general interpretation | Sections 4.1 and 4.2 |
+| 23b | Discussion: limitations of the evidence | Sections 4.1 and 4.5 |
+| 23c | Discussion: limitations of the review processes | Section 4.5 |
+| 23d | Discussion: implications | Sections 4.3 and 4.4; Section 5 |
+| 24a | Registration | Section 2.1 (OSF Registries, DOI 10.17605/OSF.IO/ECQA7) |
+| 24b | Protocol access | Section 2.1; File S1; Data Availability Statement |
+| 24c | Amendments | Section 2.1 (registered version 1.7; updates of 24 November 2026, amendments 1.8 and 1.9, and of 25 November 2026, amendments 1.10 and 1.11); File S1, Section 13, and Section 13.1 for the rules and readings fixed after the synthesis |
+| 25 | Support | Funding statement: no external funding |
+| 26 | Competing interests | Conflicts of Interest: none declared |
+| 27 | Availability of data, code and other materials | Data Availability Statement: GitHub repository (https://github.com/ClaudioUrrea/ftc-manipulators-review) and Figshare archive (https://doi.org/10.6084/m9.figshare.35106610) |

@@ -1,0 +1,4 @@
+abstract bin \ full-text bin,E0-E2,E3,E4,weight_N_over_n
+E0-E2,18,0,2,20.8276
+E3,1,1,1,1.0
+E4,11,0,12,2.7143

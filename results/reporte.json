@@ -1,0 +1,116 @@
+{
+  "items": {
+    "R1": 0.952,
+    "R2": 0.924,
+    "R3": 0.648,
+    "R4": 0.962,
+    "R5": 0.629,
+    "R6": 0.438,
+    "R7": 0.2,
+    "R8": 0.552,
+    "R9": 0.076,
+    "R10": 0.01
+  },
+  "items_L3R_weighted": {
+    "R1": 0.977,
+    "R2": 0.891,
+    "R3": 0.643,
+    "R4": 0.989,
+    "R5": 0.673,
+    "R6": 0.348,
+    "R7": 0.134,
+    "R8": 0.547,
+    "R9": 0.053,
+    "R10": 0.006
+  },
+  "n_sim": 75,
+  "n_hw": 30,
+  "score_median": 5.0,
+  "score_iqr": [
+    4.0,
+    6.0
+  ],
+  "score_range": [
+    2,
+    8
+  ],
+  "score_median_sim": 5.0,
+  "score_median_hw": 6.0,
+  "score_weighted_mean_L3R": 5.26,
+  "score_ge8_n": 5,
+  "R9_n": 8,
+  "R10_n": 1,
+  "R4_hw_share": 0.967,
+  "hw_injection": {
+    "software command modification": 27,
+    "simulated only or not described": 2,
+    "physical (disconnection, damage, locking hardware)": 1
+  },
+  "hw_injection_by_rid": {
+    "R00790": "software command modification",
+    "R00500": "software command modification",
+    "R00003": "software command modification",
+    "R00088": "software command modification",
+    "R00013": "software command modification",
+    "R00935": "software command modification",
+    "R00257": "software command modification",
+    "R00161": "software command modification",
+    "R00322": "software command modification",
+    "R01644": "simulated only or not described",
+    "R00141": "software command modification",
+    "R00460": "software command modification",
+    "R00045": "software command modification",
+    "R00139": "software command modification",
+    "R00096": "software command modification",
+    "R00785": "simulated only or not described",
+    "R00760": "software command modification",
+    "R00218": "software command modification",
+    "R00615": "software command modification",
+    "R00980": "software command modification",
+    "R00550": "software command modification",
+    "R00028": "software command modification",
+    "R00312": "physical (disconnection, damage, locking hardware)",
+    "R00613": "software command modification",
+    "R00213": "software command modification",
+    "R00463": "software command modification",
+    "R00783": "software command modification",
+    "R00446": "software command modification",
+    "R00918": "software command modification",
+    "R00375": "software command modification"
+  },
+  "hw_injection_rids_physical": [
+    "R00312"
+  ],
+  "eff_fault_FTC_numeric_n": 35,
+  "eff_nominal_numeric_n": 3,
+  "eff_noFTC_numeric_n": 14,
+  "eff_RF_computable_n": 1,
+  "eff_RF_computable_rids": [
+    "R00003"
+  ],
+  "eff_D1_computable_n": 3,
+  "eff_figures_only_n": 48,
+  "fulltext_version": {
+    "publisher version": 96,
+    "accepted manuscript": 7,
+    "author copy": 1,
+    "preprint (submitted version)": 1
+  },
+  "fulltext_version_rids": {
+    "accepted manuscript": [
+      "R00003",
+      "R00863",
+      "R00312",
+      "R00700",
+      "R00461",
+      "R01770",
+      "R00824"
+    ],
+    "preprint (submitted version)": [
+      "R00730"
+    ],
+    "author copy": [
+      "R00880"
+    ]
+  }
+}

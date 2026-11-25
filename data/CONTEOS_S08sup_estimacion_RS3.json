@@ -1,0 +1,60 @@
+{
+ "todos_anos": {
+  "N_include_primary_S08sup": 131,
+  "n_read": 40,
+  "IN": 7,
+  "IN_plus_UNCLEAR": 10,
+  "p_IN_wilson": [
+   0.175,
+   0.087,
+   0.32
+  ],
+  "p_upper_wilson": [
+   0.25,
+   0.142,
+   0.402
+  ],
+  "est_in_scope": [
+   22.9,
+   11.4,
+   41.9
+  ],
+  "est_upper": 32.8,
+  "pct_of_main_include_primary": [
+   2.2,
+   1.1,
+   4.0
+  ],
+  "pct_upper": 5.1,
+  "main_include_primary": 1042
+ },
+ "2016_2026": {
+  "N_include_primary_S08sup": 73,
+  "n_read": 20,
+  "IN": 4,
+  "IN_plus_UNCLEAR": 7,
+  "p_IN_wilson": [
+   0.2,
+   0.081,
+   0.416
+  ],
+  "p_upper_wilson": [
+   0.35,
+   0.181,
+   0.567
+  ],
+  "est_in_scope": [
+   14.6,
+   5.9,
+   30.4
+  ],
+  "est_upper": 25.5,
+  "pct_of_main_include_primary": [
+   2.1,
+   0.9,
+   4.4
+  ],
+  "pct_upper": 6.1,
+  "main_include_primary": 683
+ }
+}

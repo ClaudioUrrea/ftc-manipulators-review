@@ -1,0 +1,4 @@
+hyp,added_cell,k_to_holm_significance,string_loss_estimate,string_loss_ci,expected_among_23
+H1,"exposed, hardware",18,23,11-42,0.49
+H2,"exposed, no hardware",96,23,11-42,0.53
+H3,"exposed, hardware",17,23,11-42,2.16
